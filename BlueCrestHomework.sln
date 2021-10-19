@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueCrestHomework", "BlueCrestHomework\BlueCrestHomework.csproj", "{A6496037-A2E0-4F4D-BF54-1E6100A7B6A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scratch", "Scratch\Scratch.csproj", "{097EC7DC-77EA-4CBC-894F-7BBC7C0DA678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{AF2B2A67-A7CD-4912-B8A3-A72CD1C5DD5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6496037-A2E0-4F4D-BF54-1E6100A7B6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6496037-A2E0-4F4D-BF54-1E6100A7B6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6496037-A2E0-4F4D-BF54-1E6100A7B6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6496037-A2E0-4F4D-BF54-1E6100A7B6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{097EC7DC-77EA-4CBC-894F-7BBC7C0DA678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097EC7DC-77EA-4CBC-894F-7BBC7C0DA678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097EC7DC-77EA-4CBC-894F-7BBC7C0DA678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097EC7DC-77EA-4CBC-894F-7BBC7C0DA678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2B2A67-A7CD-4912-B8A3-A72CD1C5DD5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2B2A67-A7CD-4912-B8A3-A72CD1C5DD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2B2A67-A7CD-4912-B8A3-A72CD1C5DD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2B2A67-A7CD-4912-B8A3-A72CD1C5DD5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
