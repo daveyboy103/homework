@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using BlueCrestHomework.Models;
 using DataModel.Dtos;
+// ReSharper disable StringLiteralTypo
 
 namespace BlueCrestHomework.Extensions
 {
@@ -18,15 +19,14 @@ namespace BlueCrestHomework.Extensions
             {
                 var columnKeys = GetColumnKeys(request);
                 var colDataForDimension = GetColumnDataForDimension(request, dimension, columnKeys);
-                var rowMeasures = GetRowMeasures(request, dimension);
+                var rowMeasures = GetRowMeasuresForDimension(request, dimension);
                 bool pnlAdded = false;
                 var pnlSubComponents = new Dictionary<string, double>();
                 foreach (RowMeasure measure in rowMeasures)
                 {
-                    double pnl = 0;
-                    if (measure.Keys.Contains("pnl"))
+                    if (measure.Keys.Contains(Constants.Pnl))
                     {
-                        pnl = measure.Measures.First();
+                        var pnl = measure.Measures.First();
                         totalPnl += pnl;
                         (ret.Rows as List<BindingDataRow>)?.Add(new BindingDataRow(colDataForDimension, pnlSubComponents: pnlSubComponents)
                         {
@@ -35,7 +35,7 @@ namespace BlueCrestHomework.Extensions
                         pnlAdded = true;
                     }
                     
-                    if (measure.Keys.First().StartsWith("pnl."))
+                    if (measure.Keys.First().StartsWith(Constants.PnlMatcher))
                     {
                         pnlSubComponents.Add(measure.Keys.First(), measure.Measures.First());
                     }
@@ -55,20 +55,9 @@ namespace BlueCrestHomework.Extensions
             return ret;
         }
 
-        private static IEnumerable<RowMeasure> GetRowMeasures(Request request, string dimension)
+        private static IEnumerable<RowMeasure> GetRowMeasuresForDimension(Request request, string dimension)
         {
-            var rowMeasures = request.Measures.Rows.Where(x => x.DimensionId == dimension);
-
-            double cumulativePnl = 0;
-            foreach (RowMeasure measure in rowMeasures)
-            {
-                if (measure.Keys.Contains("pnl"))
-                {
-                    cumulativePnl += measure.Measures.First();
-                }
-            }
-
-            return rowMeasures;
+            return request.Measures.Rows.Where(x => x.DimensionId == dimension);
         }
 
         private static Dictionary<string, string> GetColumnDataForDimension(Request request, string dimension, Dictionary<string, int> columnKeys)
@@ -93,16 +82,16 @@ namespace BlueCrestHomework.Extensions
             Dictionary<string, int> columnKeys = new Dictionary<string, int>();
 
             List<string> cols = request.Dimensions.Columns.Where(x =>
-                x.Equals("fundreference") ||
-                x.Equals("desk") ||
-                x.Equals("strat")).ToList();
-            cols.Add("pnl");
+                x.Equals(Constants.Fund) ||
+                x.Equals(Constants.Desk) ||
+                x.Equals(Constants.Strategy)).ToList();
+            cols.Add(Constants.Pnl);
             
             for (int i = 0; i < request.Dimensions.Columns.Count(); i++)
             {
-                if (request.Dimensions.Columns[i] == "fundreference") columnKeys.Add("fundreference", i);
-                if (request.Dimensions.Columns[i] == "desk") columnKeys.Add("desk", i);
-                if (request.Dimensions.Columns[i] == "strat") columnKeys.Add("strat", i);
+                if (request.Dimensions.Columns[i] == Constants.Fund) columnKeys.Add(Constants.Fund, i);
+                if (request.Dimensions.Columns[i] == Constants.Desk) columnKeys.Add(Constants.Desk, i);
+                if (request.Dimensions.Columns[i] == Constants.Strategy) columnKeys.Add(Constants.Strategy, i);
             }
             
             return columnKeys;

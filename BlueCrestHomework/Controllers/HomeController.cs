@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.Net.Http;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -13,7 +9,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using BlueCrestHomework.Models;
 using DataModel.Dtos;
-using Microsoft.AspNetCore.Http;
 
 namespace BlueCrestHomework.Controllers
 {
@@ -28,6 +23,7 @@ namespace BlueCrestHomework.Controllers
             _logger = logger;
             _httpClientFactory = httpClientFactory;
             _options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            _logger.Log(LogLevel.Information, $"Controller [HomeController] created");
         }
 
         public async Task<IActionResult> Index(RequestBinding requestBindingPosted)
@@ -37,7 +33,7 @@ namespace BlueCrestHomework.Controllers
 
             var response = await client.GetAsync("https://localhost:5001/api/Query/query/all");
 
-            if (response.Content.ReadAsStream() is MemoryStream stream)
+            if (await response.Content.ReadAsStreamAsync() is MemoryStream stream)
             {
                 string decoded = Encoding.UTF8.GetString(stream.ToArray());
                 request = JsonSerializer.Deserialize<Request>(decoded, _options);

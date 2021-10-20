@@ -11,9 +11,9 @@ namespace BlueCrestHomework.Models
             bool pnlReported = true,
             IDictionary<string, double> pnlSubComponents = null)
         {
-            Fund = colDataForDimension["fundreference"];
-            Desk = colDataForDimension["desk"];
-            Strategy = colDataForDimension["strat"];
+            Fund = colDataForDimension[Constants.Fund];
+            Desk = colDataForDimension[Constants.Desk];
+            Strategy = colDataForDimension[Constants.Strategy];
             PnlReported = pnlReported;
             PnlSubComponents = pnlSubComponents;
         }
