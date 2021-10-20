@@ -8,5 +8,6 @@ namespace BlueCrestHomework.Models
         public string RequestId { get; init; }
         public IEnumerable<BindingDataRow> Rows { get; } = new List<BindingDataRow>();
         public double TotalPnl { get; set; }
+        public bool ShowDetails { get; set; }
     }
 }

@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using BlueCrestHomework.Models;
 using DataModel.Dtos;
+using Microsoft.AspNetCore.Http;
 
 namespace BlueCrestHomework.Controllers
 {
@@ -29,7 +30,7 @@ namespace BlueCrestHomework.Controllers
             _options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(RequestBinding requestBindingPosted)
         {
             HttpClient client = _httpClientFactory.CreateClient();
             Request request = new Request{ RequestId = "Empty"};
@@ -43,6 +44,7 @@ namespace BlueCrestHomework.Controllers
             }
 
             var requestBinding = request.ToBindingObject();
+            requestBinding.ShowDetails = requestBindingPosted.ShowDetails;
             
             return View(requestBinding);
         }
