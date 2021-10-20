@@ -7,12 +7,15 @@ namespace BlueCrestHomework.Models
     {
         private readonly double _pnl;
 
-        public BindingDataRow(Dictionary<string,string> colDataForDimension, bool pnlReported = true)
+        public BindingDataRow(Dictionary<string,string> colDataForDimension, 
+            bool pnlReported = true,
+            IDictionary<string, double> pnlSubComponents = null)
         {
             Fund = colDataForDimension["fundreference"];
             Desk = colDataForDimension["desk"];
             Strategy = colDataForDimension["strat"];
             PnlReported = pnlReported;
+            PnlSubComponents = pnlSubComponents;
         }
 
         public string Fund { get; init; }
@@ -26,5 +29,7 @@ namespace BlueCrestHomework.Models
         }
 
         public bool PnlReported { get; init; }
+        
+        public IDictionary<string, double> PnlSubComponents { get; } 
     }
 }

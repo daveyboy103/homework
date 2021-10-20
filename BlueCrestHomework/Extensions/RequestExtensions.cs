@@ -20,6 +20,7 @@ namespace BlueCrestHomework.Extensions
                 var colDataForDimension = GetColumnDataForDimension(request, dimension, columnKeys);
                 var rowMeasures = GetRowMeasures(request, dimension);
                 bool pnlAdded = false;
+                var pnlSubComponents = new Dictionary<string, double>();
                 foreach (RowMeasure measure in rowMeasures)
                 {
                     double pnl = 0;
@@ -27,11 +28,16 @@ namespace BlueCrestHomework.Extensions
                     {
                         pnl = measure.Measures.First();
                         totalPnl += pnl;
-                        (ret.Rows as List<BindingDataRow>)?.Add(new BindingDataRow(colDataForDimension)
+                        (ret.Rows as List<BindingDataRow>)?.Add(new BindingDataRow(colDataForDimension, pnlSubComponents: pnlSubComponents)
                         {
                             Pnl = pnl
                         });
                         pnlAdded = true;
+                    }
+                    
+                    if (measure.Keys.First().StartsWith("pnl."))
+                    {
+                        pnlSubComponents.Add(measure.Keys.First(), measure.Measures.First());
                     }
                 }
 
