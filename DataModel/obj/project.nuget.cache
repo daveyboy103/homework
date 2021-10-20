@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dSYs8xUkTXabSLeGmBAOaAYgLmuImVzz0cGNRkpZ6mkjPEwSHeUiCLhYaAEWAlhlUCoVeWuEC7Nx+qvbewqqVw==",
+  "dgSpecHash": "Pj42Nwl4q4brkkh19Mu0169lYd3p0tjWR24vGv0G/CmX+matMTOAIwIWDqwx7fWhpXYNkrNpiL/7TMc+Jc5bJQ==",
   "success": true,
   "projectFilePath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/DataModel/DataModel.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/davidharrington/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

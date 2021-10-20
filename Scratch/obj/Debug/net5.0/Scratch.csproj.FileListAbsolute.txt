@@ -16,3 +16,4 @@
 /Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/Scratch/obj/Debug/net5.0/ref/Scratch.dll
 /Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/Scratch/obj/Debug/net5.0/Scratch.pdb
 /Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/Scratch/obj/Debug/net5.0/Scratch.genruntimeconfig.cache
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/Scratch/bin/Debug/net5.0/Newtonsoft.Json.dll

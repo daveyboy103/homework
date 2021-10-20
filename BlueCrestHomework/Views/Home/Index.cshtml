@@ -2,7 +2,59 @@
     ViewData["Title"] = "Home Page";
 }
 
+@model RequestBinding 
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">@Model.RequestId</h1>
+    @if (Model.TotalPnl < 0)
+    {
+        <h4 class ="alert-danger">Total Pnl: ($@Math.Round(Math.Abs(Model.TotalPnl), 4))</h4>
+    }
+    else
+    {
+        <h4 class ="alert-success">Total Pnl: $@Math.Round(Model.TotalPnl, 4)</h4>
+    }
+    <div class="align-content-center">
+        <table class="table-striped m-auto">
+            @{
+                int i = 0;
+                foreach (var row in Model.Rows)
+                {
+                    if (i == 0)
+                    {
+                        <thead>
+                        <tr>
+                            <th>@nameof(row.Fund)</th>
+                            <th>@nameof(row.Strategy)</th>
+                            <th>@nameof(row.Desk)</th>
+                            <th>Pnl ($)</th>
+                            <th>Pnl Reported</th>
+                        </tr>
+                        </thead>
+                    }
+                    else
+                    {
+                        <tr>
+                            <td class="text-left font-weight-bold">@row.Fund</td>
+                            <td class="text-left">@row.Strategy</td>
+                            <td class="text-left">@row.Desk</td>
+                            
+                            @if (row.PnlReported)
+                            {
+                                <td class="text-right">@Math.Floor(row.Pnl)</td>
+                                <td><img width="30" height="30" class="img-thumbnail small" src="Images/small_tick.jpeg"/></td>
+                            }
+                            else
+                            {
+                                <td class="text-right">N/A</td>
+                                <td></td>
+                            }
+                        </tr>
+                    }
+                    i++;
+                }
+            }
+        </table>
+        </div>
+    
 </div>

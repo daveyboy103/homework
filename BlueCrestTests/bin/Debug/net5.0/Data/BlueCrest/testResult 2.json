@@ -1,0 +1,4046 @@
+{
+    "RequestId": "c2acc059-5b0b-4b50-9d53-bf59e3401746",
+    "Dimensions": {
+        "Columns": [
+            "report_name",
+            "capitalunit",
+            "capitalunit",
+            "desk",
+            "fundreference",
+            "location",
+            "strat",
+            "strategy_category",
+            "strategy_subcategory",
+            "strategy_description",
+            "strategy_owner",
+            "tradequerysource",
+            "ccy",
+            "value.date",
+            "deskgroup",
+            "capitalunit.isclosed"
+        ],
+        "Rows": [
+            {
+                "DimensionId": "11",
+                "Dimensions": [
+                    "All MT Dynamic PNL_fu_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBUS",
+                    "Drics",
+                    "",
+                    "",
+                    "RM - Janis Drics",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "12",
+                "Dimensions": [
+                    "All MT Dynamic PNL_fu_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBAU",
+                    "QRBAU",
+                    "",
+                    "",
+                    "RM - Cedric Levard",
+                    "Existing",
+                    "AUD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "14",
+                "Dimensions": [
+                    "All MT Dynamic PNL_fu_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBUS1",
+                    "Drics",
+                    "",
+                    "",
+                    "",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Dimensions": [
+                    "All MT Dynamic PNL_fx_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBJP",
+                    "Mauratille / Suppin",
+                    "",
+                    "",
+                    "RM - Suppin Mauratille",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "21",
+                "Dimensions": [
+                    "All MT Dynamic PNL_fx_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBBRO",
+                    "Khoury / Chilab",
+                    "",
+                    "",
+                    "RM - Vineet Mehta",
+                    "Existing",
+                    "AUD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "37",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_other_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBAU",
+                    "Levard",
+                    "",
+                    "",
+                    "RM - Cedric Levard",
+                    "Existing",
+                    "AUD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "39",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_other_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBCA",
+                    "Taylor / Balena",
+                    "",
+                    "",
+                    "RM - Taylor Balena",
+                    "Existing",
+                    "CAD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_other_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBGB",
+                    "Rates / Fage / Patel",
+                    "",
+                    "",
+                    "RM - Rates Fage Patel",
+                    "Existing",
+                    "GBP",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "42",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_other_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBGBLT",
+                    "Rates / Fage / Patel",
+                    "",
+                    "",
+                    "RM - Rates Fage Patel",
+                    "Existing",
+                    "GBP",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "48",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_other_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBHK",
+                    "Brier",
+                    "",
+                    "",
+                    "RM - Kenneth Brier",
+                    "Existing",
+                    "HKD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_other_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBJP",
+                    "Mauratille / Suppin",
+                    "",
+                    "",
+                    "RM - Suppin Mauratille",
+                    "Existing",
+                    "JPY",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "54",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_other_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBUSLT",
+                    "Rates / Fage / Patel",
+                    "",
+                    "",
+                    "RM - Rates Fage Patel",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "55",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_other_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBAU",
+                    "Levard",
+                    "",
+                    "",
+                    "RM - Cedric Levard",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "56",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_other_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBUS",
+                    "Drics",
+                    "",
+                    "",
+                    "RM - Janis Drics",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "60",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_other_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBUS1",
+                    "Drics",
+                    "",
+                    "",
+                    "",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "61",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_other_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBUS2",
+                    "Drics",
+                    "",
+                    "",
+                    "",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "219",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBAU",
+                    "Levard",
+                    "",
+                    "",
+                    "RM - Cedric Levard",
+                    "Existing",
+                    "AUD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "220",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBCA",
+                    "Taylor / Balena",
+                    "",
+                    "",
+                    "RM - Taylor Balena",
+                    "Existing",
+                    "CAD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "221",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM Basis",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBGB",
+                    "Rates / Fage / Patel",
+                    "",
+                    "",
+                    "RM - Rates Fage Patel",
+                    "Existing",
+                    "GBP",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "222",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBGBLT",
+                    "Rates / Fage / Patel",
+                    "",
+                    "",
+                    "RM - Rates Fage Patel",
+                    "Existing",
+                    "GBP",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "223",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBHK",
+                    "Brier",
+                    "",
+                    "",
+                    "RM - Kenneth Brier",
+                    "Existing",
+                    "HKD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "224",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM Basis",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBJP",
+                    "Mauratille / Suppin",
+                    "",
+                    "",
+                    "RM - Suppin Mauratille",
+                    "Existing",
+                    "JPY",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "225",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBAU",
+                    "Levard",
+                    "",
+                    "",
+                    "RM - Cedric Levard",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "226",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBBRO",
+                    "Khoury / Chilab",
+                    "",
+                    "",
+                    "RM - Vineet Mehta",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "227",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBCA",
+                    "Taylor / Balena",
+                    "",
+                    "",
+                    "RM - Taylor Balena",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "228",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBEU",
+                    "Kingsbury / Bitel",
+                    "",
+                    "",
+                    "RM - Kingsbury Bitel",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "229",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBEU4",
+                    "Kingsbury / Bitel",
+                    "",
+                    "",
+                    "RM - Kingsbury Bitel",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "230",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBFUND",
+                    "Khoury / Chilab",
+                    "",
+                    "",
+                    "RM - Vineet Mehta",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "231",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBGB",
+                    "Rates / Fage / Patel",
+                    "",
+                    "",
+                    "RM - Rates Fage Patel",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "232",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBGBLT",
+                    "Rates / Fage / Patel",
+                    "",
+                    "",
+                    "RM - Rates Fage Patel",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "233",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBHK",
+                    "Brier",
+                    "",
+                    "",
+                    "RM - Kenneth Brier",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "234",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBJP",
+                    "Mauratille / Suppin",
+                    "",
+                    "",
+                    "RM - Suppin Mauratille",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "235",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBPBR",
+                    "Khoury / Chilab",
+                    "",
+                    "",
+                    "",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "236",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBRFO",
+                    "Khoury / Chilab",
+                    "",
+                    "",
+                    "",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "237",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBROTC",
+                    "Khoury / Chilab",
+                    "",
+                    "",
+                    "RM - Vineet Mehta",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "238",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBROTH",
+                    "Khoury / Chilab",
+                    "",
+                    "",
+                    "",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "239",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBSG",
+                    "Johri",
+                    "",
+                    "",
+                    "RM - Abhishek Johri",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "240",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM Basis",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBUS",
+                    "Drics",
+                    "",
+                    "",
+                    "RM - Janis Drics",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "241",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBUS1",
+                    "Drics",
+                    "",
+                    "",
+                    "",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "242",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBUS2",
+                    "Drics",
+                    "",
+                    "",
+                    "",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            },
+            {
+                "DimensionId": "243",
+                "Dimensions": [
+                    "All MT Dynamic PNL_sw_vanilla_RMBASIS",
+                    "RM BASIS",
+                    "RM Basis",
+                    "Management Trading",
+                    "BC69",
+                    "JERSEY CHANNEL ISLANDS",
+                    "QRBUSLT",
+                    "Rates / Fage / Patel",
+                    "",
+                    "",
+                    "RM - Rates Fage Patel",
+                    "Existing",
+                    "USD",
+                    "29/09/2021 11:50:00",
+                    "RM",
+                    "0"
+                ]
+            }
+        ]
+    },
+    "Measures": {
+        "KeyColumns": [
+            "key"
+        ],
+        "ValueColumns": [
+            "value"
+        ],
+        "Rows": [
+            {
+                "DimensionId": "11",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    -348745.85337790177
+                ]
+            },
+            {
+                "DimensionId": "11",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    12.0
+                ]
+            },
+            {
+                "DimensionId": "11",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    -670.436073060293
+                ]
+            },
+            {
+                "DimensionId": "11",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    -61152.874213245959
+                ]
+            },
+            {
+                "DimensionId": "11",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    -208.50935653183842
+                ]
+            },
+            {
+                "DimensionId": "11",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    -106368.38167959411
+                ]
+            },
+            {
+                "DimensionId": "11",
+                "Keys": [
+                    "pnl.comp.rate.usd"
+                ],
+                "Measures": [
+                    -106368.38167959411
+                ]
+            },
+            {
+                "DimensionId": "11",
+                "Keys": [
+                    "pnl.comp.spread"
+                ],
+                "Measures": [
+                    43972.388902395091
+                ]
+            },
+            {
+                "DimensionId": "11",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -122488.36675690848
+                ]
+            },
+            {
+                "DimensionId": "11",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -122488.36675690848
+                ]
+            },
+            {
+                "DimensionId": "11",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    12881.0
+                ]
+            },
+            {
+                "DimensionId": "11",
+                "Keys": [
+                    "pnl.comp.vol"
+                ],
+                "Measures": [
+                    1451.6279204848979
+                ]
+            },
+            {
+                "DimensionId": "11",
+                "Keys": [
+                    "pnl.comp.vol.vol"
+                ],
+                "Measures": [
+                    1451.6279204848979
+                ]
+            },
+            {
+                "DimensionId": "11",
+                "Keys": [
+                    "vega.norm"
+                ],
+                "Measures": [
+                    -5336.3565863760014
+                ]
+            },
+            {
+                "DimensionId": "12",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    -54365.083254043479
+                ]
+            },
+            {
+                "DimensionId": "12",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    0.724
+                ]
+            },
+            {
+                "DimensionId": "12",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    2.6793425708776337
+                ]
+            },
+            {
+                "DimensionId": "12",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    21.415525617543608
+                ]
+            },
+            {
+                "DimensionId": "12",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    21.415525617514504
+                ]
+            },
+            {
+                "DimensionId": "12",
+                "Keys": [
+                    "pnl.comp.fx.aud"
+                ],
+                "Measures": [
+                    21.415525617514504
+                ]
+            },
+            {
+                "DimensionId": "12",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    32934.58816668803
+                ]
+            },
+            {
+                "DimensionId": "12",
+                "Keys": [
+                    "pnl.comp.rate.aud"
+                ],
+                "Measures": [
+                    32934.58816668803
+                ]
+            },
+            {
+                "DimensionId": "12",
+                "Keys": [
+                    "pnl.comp.spread"
+                ],
+                "Measures": [
+                    -32934.58816668803
+                ]
+            },
+            {
+                "DimensionId": "12",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -155048.40547085978
+                ]
+            },
+            {
+                "DimensionId": "12",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -155048.40547085978
+                ]
+            },
+            {
+                "DimensionId": "12",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    3050.0
+                ]
+            },
+            {
+                "DimensionId": "14",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    382418.37524287309
+                ]
+            },
+            {
+                "DimensionId": "14",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    14.0
+                ]
+            },
+            {
+                "DimensionId": "14",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    -9.68929364453652
+                ]
+            },
+            {
+                "DimensionId": "14",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    25221.875
+                ]
+            },
+            {
+                "DimensionId": "14",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    64646.985417673946
+                ]
+            },
+            {
+                "DimensionId": "14",
+                "Keys": [
+                    "pnl.comp.rate.usd"
+                ],
+                "Measures": [
+                    64646.985417673946
+                ]
+            },
+            {
+                "DimensionId": "14",
+                "Keys": [
+                    "pnl.comp.spread"
+                ],
+                "Measures": [
+                    -39425.110417673946
+                ]
+            },
+            {
+                "DimensionId": "14",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -4929784.37500001
+                ]
+            },
+            {
+                "DimensionId": "14",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -4929784.37500001
+                ]
+            },
+            {
+                "DimensionId": "14",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -15517.0
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "basis.delta.parallel"
+                ],
+                "Measures": [
+                    6.1828782614320517
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    0.0054069021716713905
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    2.0
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    -1.6111880540847778E-07
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    -6737.523035460159
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    103.01821965304407
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    -6804.2174362973892
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "pnl.comp.fx.jpy"
+                ],
+                "Measures": [
+                    -6804.2174362973892
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    -7.15828674792283
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "pnl.comp.rate.jpy"
+                ],
+                "Measures": [
+                    14.960945084654668
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "pnl.comp.rate.usd"
+                ],
+                "Measures": [
+                    -22.119231832577498
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "pnl.comp.xccy.basis"
+                ],
+                "Measures": [
+                    -29.165532067891036
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    595.31908152112737
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    52320.163820034868
+                ]
+            },
+            {
+                "DimensionId": "20",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    3.229555
+                ]
+            },
+            {
+                "DimensionId": "21",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    0.724
+                ]
+            },
+            {
+                "DimensionId": "21",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    0.208750184594237
+                ]
+            },
+            {
+                "DimensionId": "21",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    -0.0012498154059581339
+                ]
+            },
+            {
+                "DimensionId": "21",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    0.21000000000003638
+                ]
+            },
+            {
+                "DimensionId": "21",
+                "Keys": [
+                    "pnl.comp.fx.aud"
+                ],
+                "Measures": [
+                    0.21000000000003638
+                ]
+            },
+            {
+                "DimensionId": "21",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    0.0
+                ]
+            },
+            {
+                "DimensionId": "21",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -1520.3999999999999
+                ]
+            },
+            {
+                "DimensionId": "21",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -0.0021
+                ]
+            },
+            {
+                "DimensionId": "37",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    6237.0747937583046
+                ]
+            },
+            {
+                "DimensionId": "37",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    36.923999999999985
+                ]
+            },
+            {
+                "DimensionId": "37",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    0.722446492268238
+                ]
+            },
+            {
+                "DimensionId": "37",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    -31720.857186652131
+                ]
+            },
+            {
+                "DimensionId": "37",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    1.8676534324148459
+                ]
+            },
+            {
+                "DimensionId": "37",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    -309.473361130204
+                ]
+            },
+            {
+                "DimensionId": "37",
+                "Keys": [
+                    "pnl.comp.fx.aud"
+                ],
+                "Measures": [
+                    -309.473361130204
+                ]
+            },
+            {
+                "DimensionId": "37",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    -31416.907325073775
+                ]
+            },
+            {
+                "DimensionId": "37",
+                "Keys": [
+                    "pnl.comp.rate.aud"
+                ],
+                "Measures": [
+                    -31416.907325073771
+                ]
+            },
+            {
+                "DimensionId": "37",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    2240587.1345745847
+                ]
+            },
+            {
+                "DimensionId": "37",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    2240587.1345745847
+                ]
+            },
+            {
+                "DimensionId": "37",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    3441.8317720000005
+                ]
+            },
+            {
+                "DimensionId": "37",
+                "Keys": [
+                    "pnl.comp.fixing"
+                ],
+                "Measures": [
+                    3.6558461194751493
+                ]
+            },
+            {
+                "DimensionId": "39",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    14614.707590933496
+                ]
+            },
+            {
+                "DimensionId": "39",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    54.4142581128504
+                ]
+            },
+            {
+                "DimensionId": "39",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    -3.3782280411311696
+                ]
+            },
+            {
+                "DimensionId": "39",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    930.36676217319086
+                ]
+            },
+            {
+                "DimensionId": "39",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    -15.611697505708886
+                ]
+            },
+            {
+                "DimensionId": "39",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    945.97846307303143
+                ]
+            },
+            {
+                "DimensionId": "39",
+                "Keys": [
+                    "pnl.comp.fx.cad"
+                ],
+                "Measures": [
+                    945.97846307303143
+                ]
+            },
+            {
+                "DimensionId": "39",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    -3.3940578740818506E-06
+                ]
+            },
+            {
+                "DimensionId": "39",
+                "Keys": [
+                    "pnl.comp.rate.cad"
+                ],
+                "Measures": [
+                    -3.3940578740818498E-06
+                ]
+            },
+            {
+                "DimensionId": "39",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -2997654.7435117667
+                ]
+            },
+            {
+                "DimensionId": "39",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -2997923.9968878743
+                ]
+            },
+            {
+                "DimensionId": "39",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    7459.1356119999991
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    -120438.63113878961
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    694.33690000000126
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    -14.328538733578867
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    -198190.92271230844
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    14.196482005250118
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    -19257.63194128171
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "pnl.comp.fx.gbp"
+                ],
+                "Measures": [
+                    -19257.63194128171
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    -179063.39493679334
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "pnl.comp.rate.gbp"
+                ],
+                "Measures": [
+                    -179040.99977021932
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    10018732.626987979
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    10005450.810720794
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -5942.9340280000042
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "pnl.comp.fixing"
+                ],
+                "Measures": [
+                    100.13882545682897
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "basis.delta.parallel"
+                ],
+                "Measures": [
+                    5.2102344177132549
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "pnl.comp.rate.usd"
+                ],
+                "Measures": [
+                    -22.395166574053444
+                ]
+            },
+            {
+                "DimensionId": "41",
+                "Keys": [
+                    "pnl.comp.xccy.basis"
+                ],
+                "Measures": [
+                    15.768858305547552
+                ]
+            },
+            {
+                "DimensionId": "42",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    -32748.273222814845
+                ]
+            },
+            {
+                "DimensionId": "42",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    17.561049999999994
+                ]
+            },
+            {
+                "DimensionId": "42",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    39.846638129623052
+                ]
+            },
+            {
+                "DimensionId": "42",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    -51853.673001196817
+                ]
+            },
+            {
+                "DimensionId": "42",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    63.36084182485564
+                ]
+            },
+            {
+                "DimensionId": "42",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    -87186.435730199912
+                ]
+            },
+            {
+                "DimensionId": "42",
+                "Keys": [
+                    "pnl.comp.fx.gbp"
+                ],
+                "Measures": [
+                    -87186.435730199912
+                ]
+            },
+            {
+                "DimensionId": "42",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    35269.401887183951
+                ]
+            },
+            {
+                "DimensionId": "42",
+                "Keys": [
+                    "pnl.comp.rate.gbp"
+                ],
+                "Measures": [
+                    35269.401887183871
+                ]
+            },
+            {
+                "DimensionId": "42",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    45298383.348523572
+                ]
+            },
+            {
+                "DimensionId": "42",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    45298383.348523565
+                ]
+            },
+            {
+                "DimensionId": "42",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    12720.0
+                ]
+            },
+            {
+                "DimensionId": "48",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    -3006.9150530550733
+                ]
+            },
+            {
+                "DimensionId": "48",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    3.9825026817659186
+                ]
+            },
+            {
+                "DimensionId": "48",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    0.17665044310902211
+                ]
+            },
+            {
+                "DimensionId": "48",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    -75705.960982080229
+                ]
+            },
+            {
+                "DimensionId": "48",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    4.2025614888734752
+                ]
+            },
+            {
+                "DimensionId": "48",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    -62.296927220486396
+                ]
+            },
+            {
+                "DimensionId": "48",
+                "Keys": [
+                    "pnl.comp.fx.hkd"
+                ],
+                "Measures": [
+                    -62.296927220486396
+                ]
+            },
+            {
+                "DimensionId": "48",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    -75647.866616348489
+                ]
+            },
+            {
+                "DimensionId": "48",
+                "Keys": [
+                    "pnl.comp.rate.hkd"
+                ],
+                "Measures": [
+                    -75647.8666163485
+                ]
+            },
+            {
+                "DimensionId": "48",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    1694767.6073763769
+                ]
+            },
+            {
+                "DimensionId": "48",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    1939627.2883907589
+                ]
+            },
+            {
+                "DimensionId": "48",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    11190.0
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    -135522.80577172179
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    3.0082344806530004
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    28.454359158543042
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    110666.10860375626
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    -21.620907087815404
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    67115.831643812227
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "pnl.comp.fx.jpy"
+                ],
+                "Measures": [
+                    67115.831643812227
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    43576.27626475443
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "pnl.comp.rate.jpy"
+                ],
+                "Measures": [
+                    43556.840243252744
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    31309530.418509893
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    31339442.72573093
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    1144878.3936459988
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "basis.delta.parallel"
+                ],
+                "Measures": [
+                    -14.025925888778882
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "pnl.comp.rate.usd"
+                ],
+                "Measures": [
+                    19.436021501508854
+                ]
+            },
+            {
+                "DimensionId": "49",
+                "Keys": [
+                    "pnl.comp.xccy.basis"
+                ],
+                "Measures": [
+                    -4.378397719130108
+                ]
+            },
+            {
+                "DimensionId": "54",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    0.0
+                ]
+            },
+            {
+                "DimensionId": "54",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    6.0
+                ]
+            },
+            {
+                "DimensionId": "54",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    0.0
+                ]
+            },
+            {
+                "DimensionId": "54",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    0.0
+                ]
+            },
+            {
+                "DimensionId": "54",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    0.0
+                ]
+            },
+            {
+                "DimensionId": "54",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    0.0
+                ]
+            },
+            {
+                "DimensionId": "54",
+                "Keys": [
+                    "pnl.comp.rate.usd"
+                ],
+                "Measures": [
+                    0.0
+                ]
+            },
+            {
+                "DimensionId": "54",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    0.0
+                ]
+            },
+            {
+                "DimensionId": "54",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    0.0
+                ]
+            },
+            {
+                "DimensionId": "54",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    0.0
+                ]
+            },
+            {
+                "DimensionId": "55",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    -2017.618228295818
+                ]
+            },
+            {
+                "DimensionId": "55",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "55",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    0.95713864360004663
+                ]
+            },
+            {
+                "DimensionId": "55",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    1535.8432022389024
+                ]
+            },
+            {
+                "DimensionId": "55",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    -0.59785549156367779
+                ]
+            },
+            {
+                "DimensionId": "55",
+                "Keys": [
+                    "pnl.comp.fixing"
+                ],
+                "Measures": [
+                    -52.0763905798085
+                ]
+            },
+            {
+                "DimensionId": "55",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    1588.5174483102746
+                ]
+            },
+            {
+                "DimensionId": "55",
+                "Keys": [
+                    "pnl.comp.rate.usd"
+                ],
+                "Measures": [
+                    1588.5174483102746
+                ]
+            },
+            {
+                "DimensionId": "55",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -428868.03355195513
+                ]
+            },
+            {
+                "DimensionId": "55",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -428868.03355195513
+                ]
+            },
+            {
+                "DimensionId": "55",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    100.0
+                ]
+            },
+            {
+                "DimensionId": "56",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    -18602.5700398529
+                ]
+            },
+            {
+                "DimensionId": "56",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    420.0
+                ]
+            },
+            {
+                "DimensionId": "56",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    51.216030828614862
+                ]
+            },
+            {
+                "DimensionId": "56",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    247570.0391524997
+                ]
+            },
+            {
+                "DimensionId": "56",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    48.492184359830723
+                ]
+            },
+            {
+                "DimensionId": "56",
+                "Keys": [
+                    "pnl.comp.fixing"
+                ],
+                "Measures": [
+                    1073.7425668519754
+                ]
+            },
+            {
+                "DimensionId": "56",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    246447.80440128804
+                ]
+            },
+            {
+                "DimensionId": "56",
+                "Keys": [
+                    "pnl.comp.rate.usd"
+                ],
+                "Measures": [
+                    246447.8044012879
+                ]
+            },
+            {
+                "DimensionId": "56",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    35160873.031883776
+                ]
+            },
+            {
+                "DimensionId": "56",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    35160873.031883791
+                ]
+            },
+            {
+                "DimensionId": "56",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -10299.60033
+                ]
+            },
+            {
+                "DimensionId": "60",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    -47211.166657015216
+                ]
+            },
+            {
+                "DimensionId": "60",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    2.0
+                ]
+            },
+            {
+                "DimensionId": "60",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    14.640607225708663
+                ]
+            },
+            {
+                "DimensionId": "60",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    51253.073621085496
+                ]
+            },
+            {
+                "DimensionId": "60",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    -0.708705561584793
+                ]
+            },
+            {
+                "DimensionId": "60",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    51253.78232664708
+                ]
+            },
+            {
+                "DimensionId": "60",
+                "Keys": [
+                    "pnl.comp.rate.usd"
+                ],
+                "Measures": [
+                    51253.78232664708
+                ]
+            },
+            {
+                "DimensionId": "60",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -459014.9308382154
+                ]
+            },
+            {
+                "DimensionId": "60",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -459014.9308382154
+                ]
+            },
+            {
+                "DimensionId": "60",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -1900.0
+                ]
+            },
+            {
+                "DimensionId": "61",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    47211.166657015216
+                ]
+            },
+            {
+                "DimensionId": "61",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    2.0
+                ]
+            },
+            {
+                "DimensionId": "61",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    -14.640607225708663
+                ]
+            },
+            {
+                "DimensionId": "61",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    -51253.073621085496
+                ]
+            },
+            {
+                "DimensionId": "61",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    0.708705561584793
+                ]
+            },
+            {
+                "DimensionId": "61",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    -51253.78232664708
+                ]
+            },
+            {
+                "DimensionId": "61",
+                "Keys": [
+                    "pnl.comp.rate.usd"
+                ],
+                "Measures": [
+                    -51253.78232664708
+                ]
+            },
+            {
+                "DimensionId": "61",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    459014.9308382154
+                ]
+            },
+            {
+                "DimensionId": "61",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    459014.9308382154
+                ]
+            },
+            {
+                "DimensionId": "61",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    1900.0
+                ]
+            },
+            {
+                "DimensionId": "219",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    9.412
+                ]
+            },
+            {
+                "DimensionId": "219",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    17204.941285410583
+                ]
+            },
+            {
+                "DimensionId": "219",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    69.179345273221742
+                ]
+            },
+            {
+                "DimensionId": "219",
+                "Keys": [
+                    "pnl.comp.fx.aud"
+                ],
+                "Measures": [
+                    69.179345273221742
+                ]
+            },
+            {
+                "DimensionId": "219",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -500858.45977845608
+                ]
+            },
+            {
+                "DimensionId": "219",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -500858.45977845613
+                ]
+            },
+            {
+                "DimensionId": "219",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -365.39256889999996
+                ]
+            },
+            {
+                "DimensionId": "219",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    15606.926218344415
+                ]
+            },
+            {
+                "DimensionId": "219",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    -35.095917617570031
+                ]
+            },
+            {
+                "DimensionId": "219",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    0.16492258065175269
+                ]
+            },
+            {
+                "DimensionId": "219",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    17135.597017556611
+                ]
+            },
+            {
+                "DimensionId": "219",
+                "Keys": [
+                    "pnl.comp.rate.aud"
+                ],
+                "Measures": [
+                    17135.597017556611
+                ]
+            },
+            {
+                "DimensionId": "220",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    0.78861243641812229
+                ]
+            },
+            {
+                "DimensionId": "220",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    -962.79857585672289
+                ]
+            },
+            {
+                "DimensionId": "220",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    -962.79857585625723
+                ]
+            },
+            {
+                "DimensionId": "220",
+                "Keys": [
+                    "pnl.comp.fx.cad"
+                ],
+                "Measures": [
+                    -962.79857585625723
+                ]
+            },
+            {
+                "DimensionId": "220",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    3051229.0367099084
+                ]
+            },
+            {
+                "DimensionId": "220",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    3051229.0367099084
+                ]
+            },
+            {
+                "DimensionId": "220",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    3.86911098
+                ]
+            },
+            {
+                "DimensionId": "221",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    45.92890000000002
+                ]
+            },
+            {
+                "DimensionId": "221",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    53974.299368842418
+                ]
+            },
+            {
+                "DimensionId": "221",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    20319.910794178184
+                ]
+            },
+            {
+                "DimensionId": "221",
+                "Keys": [
+                    "pnl.comp.fx.gbp"
+                ],
+                "Measures": [
+                    20319.910794178184
+                ]
+            },
+            {
+                "DimensionId": "221",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -10513017.369574822
+                ]
+            },
+            {
+                "DimensionId": "221",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -10557365.960122768
+                ]
+            },
+            {
+                "DimensionId": "221",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -150.54803421000003
+                ]
+            },
+            {
+                "DimensionId": "221",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    -6359.3661427999723
+                ]
+            },
+            {
+                "DimensionId": "221",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    -45.375199593322378
+                ]
+            },
+            {
+                "DimensionId": "221",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    4.2433023680409274
+                ]
+            },
+            {
+                "DimensionId": "221",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    33848.443456619709
+                ]
+            },
+            {
+                "DimensionId": "221",
+                "Keys": [
+                    "pnl.comp.rate.gbp"
+                ],
+                "Measures": [
+                    33848.443456619687
+                ]
+            },
+            {
+                "DimensionId": "221",
+                "Keys": [
+                    "pnl.comp.fixing"
+                ],
+                "Measures": [
+                    -198.29818433149777
+                ]
+            },
+            {
+                "DimensionId": "222",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    2.7016999999999998
+                ]
+            },
+            {
+                "DimensionId": "222",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    31833.293840210419
+                ]
+            },
+            {
+                "DimensionId": "222",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    87547.9431163664
+                ]
+            },
+            {
+                "DimensionId": "222",
+                "Keys": [
+                    "pnl.comp.fx.gbp"
+                ],
+                "Measures": [
+                    87547.9431163664
+                ]
+            },
+            {
+                "DimensionId": "222",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -45486207.291820273
+                ]
+            },
+            {
+                "DimensionId": "222",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -45486207.291820273
+                ]
+            },
+            {
+                "DimensionId": "222",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    14.871402590000002
+                ]
+            },
+            {
+                "DimensionId": "222",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    29333.928587212267
+                ]
+            },
+            {
+                "DimensionId": "222",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    -15.885561103517409
+                ]
+            },
+            {
+                "DimensionId": "222",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    2.8316769747060726
+                ]
+            },
+            {
+                "DimensionId": "222",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    -55717.480953130631
+                ]
+            },
+            {
+                "DimensionId": "222",
+                "Keys": [
+                    "pnl.comp.rate.gbp"
+                ],
+                "Measures": [
+                    -55717.480953130631
+                ]
+            },
+            {
+                "DimensionId": "223",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    0.12846782844406188
+                ]
+            },
+            {
+                "DimensionId": "223",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    40.16705652535893
+                ]
+            },
+            {
+                "DimensionId": "223",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    40.167056525591761
+                ]
+            },
+            {
+                "DimensionId": "223",
+                "Keys": [
+                    "pnl.comp.fx.hkd"
+                ],
+                "Measures": [
+                    40.167056525591761
+                ]
+            },
+            {
+                "DimensionId": "223",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -1250609.3383264493
+                ]
+            },
+            {
+                "DimensionId": "223",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -1250609.3383264493
+                ]
+            },
+            {
+                "DimensionId": "223",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -9.73480562
+                ]
+            },
+            {
+                "DimensionId": "224",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.6522840132541878
+                ]
+            },
+            {
+                "DimensionId": "224",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    13126.816532154393
+                ]
+            },
+            {
+                "DimensionId": "224",
+                "Keys": [
+                    "pnl.comp.fx"
+                ],
+                "Measures": [
+                    -60441.142675693583
+                ]
+            },
+            {
+                "DimensionId": "224",
+                "Keys": [
+                    "pnl.comp.fx.jpy"
+                ],
+                "Measures": [
+                    -60441.142675693583
+                ]
+            },
+            {
+                "DimensionId": "224",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -28222726.036013469
+                ]
+            },
+            {
+                "DimensionId": "224",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -28222726.036013469
+                ]
+            },
+            {
+                "DimensionId": "224",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    125017.38244085998
+                ]
+            },
+            {
+                "DimensionId": "224",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    131902.24246909504
+                ]
+            },
+            {
+                "DimensionId": "224",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    -130.99578688419356
+                ]
+            },
+            {
+                "DimensionId": "224",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    3.6170768297825635
+                ]
+            },
+            {
+                "DimensionId": "224",
+                "Keys": [
+                    "pnl.comp.fixing"
+                ],
+                "Measures": [
+                    1.5950807338199953
+                ]
+            },
+            {
+                "DimensionId": "224",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    73562.747050281381
+                ]
+            },
+            {
+                "DimensionId": "224",
+                "Keys": [
+                    "pnl.comp.rate.jpy"
+                ],
+                "Measures": [
+                    73562.74705028173
+                ]
+            },
+            {
+                "DimensionId": "225",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "225",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -10302196.76
+                ]
+            },
+            {
+                "DimensionId": "225",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -10302196.76
+                ]
+            },
+            {
+                "DimensionId": "225",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -10.30219676
+                ]
+            },
+            {
+                "DimensionId": "226",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "226",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -126748.33
+                ]
+            },
+            {
+                "DimensionId": "226",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -126748.33
+                ]
+            },
+            {
+                "DimensionId": "226",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -0.12674833
+                ]
+            },
+            {
+                "DimensionId": "227",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "227",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    2256591.77
+                ]
+            },
+            {
+                "DimensionId": "227",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    2256591.77
+                ]
+            },
+            {
+                "DimensionId": "227",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    2.25659177
+                ]
+            },
+            {
+                "DimensionId": "228",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "228",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -13593138.46
+                ]
+            },
+            {
+                "DimensionId": "228",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -13593138.46
+                ]
+            },
+            {
+                "DimensionId": "228",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -13.59313846
+                ]
+            },
+            {
+                "DimensionId": "229",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "229",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -173185.26
+                ]
+            },
+            {
+                "DimensionId": "229",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -173185.26
+                ]
+            },
+            {
+                "DimensionId": "229",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -0.17318526
+                ]
+            },
+            {
+                "DimensionId": "230",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "230",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -777235.24
+                ]
+            },
+            {
+                "DimensionId": "230",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -777235.24
+                ]
+            },
+            {
+                "DimensionId": "230",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -0.77723524
+                ]
+            },
+            {
+                "DimensionId": "231",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "231",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -58817277.49
+                ]
+            },
+            {
+                "DimensionId": "231",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -58817277.49
+                ]
+            },
+            {
+                "DimensionId": "231",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -58.81727749
+                ]
+            },
+            {
+                "DimensionId": "232",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "232",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    45084931.83
+                ]
+            },
+            {
+                "DimensionId": "232",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    45084931.83
+                ]
+            },
+            {
+                "DimensionId": "232",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    45.084931829999995
+                ]
+            },
+            {
+                "DimensionId": "233",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "233",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    3127440.36
+                ]
+            },
+            {
+                "DimensionId": "233",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    3127440.36
+                ]
+            },
+            {
+                "DimensionId": "233",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    3.1274403599999996
+                ]
+            },
+            {
+                "DimensionId": "234",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "234",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    16848630.37
+                ]
+            },
+            {
+                "DimensionId": "234",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    16848630.37
+                ]
+            },
+            {
+                "DimensionId": "234",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    16.84863037
+                ]
+            },
+            {
+                "DimensionId": "235",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "235",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -9612.91
+                ]
+            },
+            {
+                "DimensionId": "235",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -9612.91
+                ]
+            },
+            {
+                "DimensionId": "235",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -0.0096129099999999988
+                ]
+            },
+            {
+                "DimensionId": "236",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "236",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -2278.0
+                ]
+            },
+            {
+                "DimensionId": "236",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -2278.0
+                ]
+            },
+            {
+                "DimensionId": "236",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -0.002278
+                ]
+            },
+            {
+                "DimensionId": "237",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "237",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -836825.0
+                ]
+            },
+            {
+                "DimensionId": "237",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -836825.0
+                ]
+            },
+            {
+                "DimensionId": "237",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -0.83682499999999993
+                ]
+            },
+            {
+                "DimensionId": "238",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "238",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -6000.0
+                ]
+            },
+            {
+                "DimensionId": "238",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -6000.0
+                ]
+            },
+            {
+                "DimensionId": "238",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -0.006
+                ]
+            },
+            {
+                "DimensionId": "239",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "239",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    1282125.37
+                ]
+            },
+            {
+                "DimensionId": "239",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    1282125.37
+                ]
+            },
+            {
+                "DimensionId": "239",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    1.2821253700000002
+                ]
+            },
+            {
+                "DimensionId": "240",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    61.0
+                ]
+            },
+            {
+                "DimensionId": "240",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -63040455.557051271
+                ]
+            },
+            {
+                "DimensionId": "240",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -63040455.5570513
+                ]
+            },
+            {
+                "DimensionId": "240",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -1275.979832439999
+                ]
+            },
+            {
+                "DimensionId": "240",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    -66029.161763736338
+                ]
+            },
+            {
+                "DimensionId": "240",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    -36.284130926840589
+                ]
+            },
+            {
+                "DimensionId": "240",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    -213841.41901240952
+                ]
+            },
+            {
+                "DimensionId": "240",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    201.53444326581666
+                ]
+            },
+            {
+                "DimensionId": "240",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    -213607.19321052067
+                ]
+            },
+            {
+                "DimensionId": "240",
+                "Keys": [
+                    "pnl.comp.rate.usd"
+                ],
+                "Measures": [
+                    -213607.19321052067
+                ]
+            },
+            {
+                "DimensionId": "240",
+                "Keys": [
+                    "pnl.comp.fixing"
+                ],
+                "Measures": [
+                    -435.76024515456083
+                ]
+            },
+            {
+                "DimensionId": "241",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    4.0
+                ]
+            },
+            {
+                "DimensionId": "241",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    4724786.5792582138
+                ]
+            },
+            {
+                "DimensionId": "241",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    4724786.5792582138
+                ]
+            },
+            {
+                "DimensionId": "241",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    -3722.04509361
+                ]
+            },
+            {
+                "DimensionId": "241",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    -328080.56372307404
+                ]
+            },
+            {
+                "DimensionId": "241",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    47.752309749484994
+                ]
+            },
+            {
+                "DimensionId": "241",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    -99696.665455306531
+                ]
+            },
+            {
+                "DimensionId": "241",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    9.5410796726355329
+                ]
+            },
+            {
+                "DimensionId": "241",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    -99706.206534979166
+                ]
+            },
+            {
+                "DimensionId": "241",
+                "Keys": [
+                    "pnl.comp.rate.usd"
+                ],
+                "Measures": [
+                    -99706.206534979166
+                ]
+            },
+            {
+                "DimensionId": "242",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    3.0
+                ]
+            },
+            {
+                "DimensionId": "242",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    -2012971.2556579835
+                ]
+            },
+            {
+                "DimensionId": "242",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    -2012971.2556579835
+                ]
+            },
+            {
+                "DimensionId": "242",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    4002.58717828
+                ]
+            },
+            {
+                "DimensionId": "242",
+                "Keys": [
+                    "deltaallparallel"
+                ],
+                "Measures": [
+                    354611.456584512
+                ]
+            },
+            {
+                "DimensionId": "242",
+                "Keys": [
+                    "gammaallparallel"
+                ],
+                "Measures": [
+                    -66.323607673984952
+                ]
+            },
+            {
+                "DimensionId": "242",
+                "Keys": [
+                    "pnl"
+                ],
+                "Measures": [
+                    -34796.6808808333
+                ]
+            },
+            {
+                "DimensionId": "242",
+                "Keys": [
+                    "pnl.comp.date"
+                ],
+                "Measures": [
+                    -6.340768562280573
+                ]
+            },
+            {
+                "DimensionId": "242",
+                "Keys": [
+                    "pnl.comp.rate"
+                ],
+                "Measures": [
+                    -34790.34011227102
+                ]
+            },
+            {
+                "DimensionId": "242",
+                "Keys": [
+                    "pnl.comp.rate.usd"
+                ],
+                "Measures": [
+                    -34790.34011227102
+                ]
+            },
+            {
+                "DimensionId": "243",
+                "Keys": [
+                    "fx.usd"
+                ],
+                "Measures": [
+                    1.0
+                ]
+            },
+            {
+                "DimensionId": "243",
+                "Keys": [
+                    "pv"
+                ],
+                "Measures": [
+                    55111116.81
+                ]
+            },
+            {
+                "DimensionId": "243",
+                "Keys": [
+                    "pv.t0"
+                ],
+                "Measures": [
+                    55111116.81
+                ]
+            },
+            {
+                "DimensionId": "243",
+                "Keys": [
+                    "size"
+                ],
+                "Measures": [
+                    55.11111681
+                ]
+            }
+        ]
+    }
+}

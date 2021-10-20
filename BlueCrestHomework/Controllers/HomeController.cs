@@ -1,26 +1,50 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
+using System.Net.Http;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
+using BlueCrestHomework.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using BlueCrestHomework.Models;
+using DataModel.Dtos;
 
 namespace BlueCrestHomework.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly JsonSerializerOptions _options;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IHttpClientFactory httpClientFactory)
         {
             _logger = logger;
+            _httpClientFactory = httpClientFactory;
+            _options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            HttpClient client = _httpClientFactory.CreateClient();
+            Request request = new Request{ RequestId = "Empty"};
+
+            var response = await client.GetAsync("https://localhost:5001/api/Query/query/all");
+
+            if (response.Content.ReadAsStream() is MemoryStream stream)
+            {
+                string decoded = Encoding.UTF8.GetString(stream.ToArray());
+                request = JsonSerializer.Deserialize<Request>(decoded, _options);
+            }
+
+            var requestBinding = request.ToBindingObject();
+            
+            return View(requestBinding);
         }
 
         public IActionResult Privacy()
