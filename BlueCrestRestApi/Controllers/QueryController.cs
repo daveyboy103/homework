@@ -1,13 +1,9 @@
 using System;
 using System.IO;
-using System.Text.Json;
 using System.Threading.Tasks;
-using DataModel;
 using DataModel.Dtos;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using Request = DataModel.Dtos.Request;
 
 namespace BlueCrestRestApi.Controllers
 {
@@ -18,21 +14,19 @@ namespace BlueCrestRestApi.Controllers
         [HttpGet("query/all")]
         public async Task<ActionResult<Request>> GetData()
         {
-            Request request = new Request{RequestId = "empty"};
+            var request = new Request { RequestId = "empty" };
 
             try
             {
                 await Task.Factory.StartNew(() =>
                 {
                     using var stream = new StreamReader("Data/testResult.json");
-                    string content = stream.ReadToEnd();
-
-                    JsonDocument doc = JsonDocument.Parse(content);
+                    var content = stream.ReadToEnd();
 
                     request = JsonConvert.DeserializeObject<Request>(content);
                 });
-            
-                return  new ActionResult<Request>(request);
+
+                return new ActionResult<Request>(request);
             }
             catch (Exception e)
             {

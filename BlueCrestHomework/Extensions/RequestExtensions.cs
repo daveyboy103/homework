@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using BlueCrestHomework.Models;
@@ -37,7 +38,8 @@ namespace BlueCrestHomework.Extensions
                     
                     if (measure.Keys.First().StartsWith(Constants.PnlMatcher))
                     {
-                        pnlSubComponents.Add(measure.Keys.First(), measure.Measures.First());
+                        if(ContainsTwoDots(measure.Keys.First()))
+                            pnlSubComponents.Add(measure.Keys.First(), measure.Measures.First());
                     }
                 }
 
@@ -53,6 +55,18 @@ namespace BlueCrestHomework.Extensions
             ret.TotalPnl = totalPnl;
 
             return ret;
+        }
+
+        private static bool ContainsTwoDots(string stringToTest)
+        {
+            int dotCount = 0;
+            foreach (char c in stringToTest)
+            {
+                if (c == '.')
+                    dotCount++;
+            }
+
+            return dotCount <= 2;
         }
 
         private static IEnumerable<RowMeasure> GetRowMeasuresForDimension(Request request, string dimension)

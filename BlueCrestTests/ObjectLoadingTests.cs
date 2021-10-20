@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Transactions;
 using BlueCrestHomework.Extensions;
 using BlueCrestHomework.Models;
 using DataModel.Dtos;
@@ -88,6 +90,14 @@ namespace BlueCrestTests
                 
 
             }
+        }
+
+        [Test]
+        public void NumberFormattingTests()
+        {
+            double d = 12345.678900;
+
+            Console.WriteLine(String.Format(CultureInfo.CurrentCulture, "{0:N3}", d));
         }
     }
 }
