@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -18,18 +19,25 @@ namespace BlueCrestRestApi.Controllers
         public async Task<ActionResult<Request>> GetData()
         {
             Request request = new Request{RequestId = "empty"};
-            
-            await Task.Factory.StartNew(() =>
+
+            try
             {
-                using var stream = new StreamReader("Data/testResult.json");
-                string content = stream.ReadToEnd();
+                await Task.Factory.StartNew(() =>
+                {
+                    using var stream = new StreamReader("Data/testResult.json");
+                    string content = stream.ReadToEnd();
 
-                JsonDocument doc = JsonDocument.Parse(content);
+                    JsonDocument doc = JsonDocument.Parse(content);
 
-                request = JsonConvert.DeserializeObject<Request>(content);
-            });
+                    request = JsonConvert.DeserializeObject<Request>(content);
+                });
             
-            return new ActionResult<Request>(request);
+                return  new ActionResult<Request>(request);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, e.Message);
+            }
         }
     }
 }
