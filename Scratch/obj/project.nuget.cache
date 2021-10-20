@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "af1oFRfO8vqV++7OS7AXKe0yGINjrHb+7rx1jIx+lJaTrHKnkD7Eyz2sMSc/7fGm/WTNBY6fE65hQTdfZ54NvA==",
+  "dgSpecHash": "Z1GmStRb+pAlQ63590S85nf2cxVYp0VAv2DHggw+UsWK1JYrW0C/XwFeUc523DeA/nDoZ+Wg2x6ETeOV8RWdIA==",
   "success": true,
-  "projectFilePath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/Scratch/Scratch.csproj",
+  "projectFilePath": "/Users/davidharrington/Documents/GitHub/homework/Scratch/Scratch.csproj",
   "expectedPackageFiles": [
     "/Users/davidharrington/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512"
   ],

@@ -257,11 +257,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/BlueCrestRestApi/BlueCrestRestApi.csproj",
+      "projectUniqueName": "/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/BlueCrestRestApi.csproj",
       "projectName": "BlueCrestRestApi",
-      "projectPath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/BlueCrestRestApi/BlueCrestRestApi.csproj",
+      "projectPath": "/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/BlueCrestRestApi.csproj",
       "packagesPath": "/Users/davidharrington/.nuget/packages/",
-      "outputPath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/BlueCrestRestApi/obj/",
+      "outputPath": "/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/davidharrington/.nuget/NuGet/NuGet.Config"
@@ -276,8 +276,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/DataModel/DataModel.csproj": {
-              "projectPath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/DataModel/DataModel.csproj"
+            "/Users/davidharrington/Documents/GitHub/homework/DataModel/DataModel.csproj": {
+              "projectPath": "/Users/davidharrington/Documents/GitHub/homework/DataModel/DataModel.csproj"
             }
           }
         }

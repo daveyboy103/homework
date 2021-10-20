@@ -41,7 +41,14 @@
                             
                             @if (row.PnlReported)
                             {
-                                <td class="text-right">@Math.Floor(row.Pnl)</td>
+                                @if (row.Pnl >= 0)
+                                {
+                                    <td class="text-right">@Math.Floor(row.Pnl)</td>
+                                }
+                                else
+                                {
+                                    <td class="text-right alert-danger">(@Math.Floor(Math.Abs(row.Pnl)))</td>
+                                }
                                 <td><img width="30" height="30" class="img-thumbnail small" src="Images/small_tick.jpeg"/></td>
                             }
                             else

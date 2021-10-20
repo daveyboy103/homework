@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RLp95UOKpAXhaN0bajrnQ/NAcvxVNoqbRoDWs37FQiyF7abPXBvzqqM9UDnHUbPF89/LucrLxwbSfPuDRky71g==",
+  "dgSpecHash": "TNXbbp2JduqB2DAiygsRJDYqXKGvUsH77ZhDAf3Thsl+QrpCoHnrKAd6+jchB3IEW7KfgZSWA72sIuf0f/mmBw==",
   "success": true,
-  "projectFilePath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/BlueCrestTests/BlueCrestTests.csproj",
+  "projectFilePath": "/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/BlueCrestTests.csproj",
   "expectedPackageFiles": [
     "/Users/davidharrington/.nuget/packages/coverlet.collector/3.0.2/coverlet.collector.3.0.2.nupkg.sha512",
     "/Users/davidharrington/.nuget/packages/humanizer.core/2.2.0/humanizer.core.2.2.0.nupkg.sha512",

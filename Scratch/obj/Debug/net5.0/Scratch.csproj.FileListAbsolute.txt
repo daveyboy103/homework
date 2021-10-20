@@ -17,3 +17,22 @@
 /Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/Scratch/obj/Debug/net5.0/Scratch.pdb
 /Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/Scratch/obj/Debug/net5.0/Scratch.genruntimeconfig.cache
 /Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/Scratch/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/davidharrington/Documents/GitHub/homework/Scratch/bin/Debug/net5.0/Scratch.deps.json
+/Users/davidharrington/Documents/GitHub/homework/Scratch/bin/Debug/net5.0/Scratch.runtimeconfig.json
+/Users/davidharrington/Documents/GitHub/homework/Scratch/bin/Debug/net5.0/Scratch.runtimeconfig.dev.json
+/Users/davidharrington/Documents/GitHub/homework/Scratch/bin/Debug/net5.0/Scratch.dll
+/Users/davidharrington/Documents/GitHub/homework/Scratch/bin/Debug/net5.0/ref/Scratch.dll
+/Users/davidharrington/Documents/GitHub/homework/Scratch/bin/Debug/net5.0/Scratch.pdb
+/Users/davidharrington/Documents/GitHub/homework/Scratch/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/davidharrington/Documents/GitHub/homework/Scratch/bin/Debug/net5.0/DataModel.dll
+/Users/davidharrington/Documents/GitHub/homework/Scratch/bin/Debug/net5.0/DataModel.pdb
+/Users/davidharrington/Documents/GitHub/homework/Scratch/obj/Debug/net5.0/Scratch.csproj.AssemblyReference.cache
+/Users/davidharrington/Documents/GitHub/homework/Scratch/obj/Debug/net5.0/Scratch.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidharrington/Documents/GitHub/homework/Scratch/obj/Debug/net5.0/Scratch.AssemblyInfoInputs.cache
+/Users/davidharrington/Documents/GitHub/homework/Scratch/obj/Debug/net5.0/Scratch.AssemblyInfo.cs
+/Users/davidharrington/Documents/GitHub/homework/Scratch/obj/Debug/net5.0/Scratch.csproj.CoreCompileInputs.cache
+/Users/davidharrington/Documents/GitHub/homework/Scratch/obj/Debug/net5.0/Scratch.csproj.CopyComplete
+/Users/davidharrington/Documents/GitHub/homework/Scratch/obj/Debug/net5.0/Scratch.dll
+/Users/davidharrington/Documents/GitHub/homework/Scratch/obj/Debug/net5.0/ref/Scratch.dll
+/Users/davidharrington/Documents/GitHub/homework/Scratch/obj/Debug/net5.0/Scratch.pdb
+/Users/davidharrington/Documents/GitHub/homework/Scratch/obj/Debug/net5.0/Scratch.genruntimeconfig.cache

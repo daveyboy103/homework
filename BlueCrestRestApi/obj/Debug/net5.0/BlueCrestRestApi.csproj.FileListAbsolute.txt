@@ -30,3 +30,35 @@
 /Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/BlueCrestRestApi/obj/Debug/net5.0/ref/BlueCrestRestApi.dll
 /Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.pdb
 /Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.genruntimeconfig.cache
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/appsettings.Development.json
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/appsettings.json
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/Data/testResult.json
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/BlueCrestRestApi.deps.json
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/BlueCrestRestApi.runtimeconfig.json
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/BlueCrestRestApi.runtimeconfig.dev.json
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/BlueCrestRestApi.dll
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/ref/BlueCrestRestApi.dll
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/BlueCrestRestApi.pdb
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/DataModel.dll
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/bin/Debug/net5.0/DataModel.pdb
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.csproj.AssemblyReference.cache
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.AssemblyInfoInputs.cache
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.AssemblyInfo.cs
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.csproj.CoreCompileInputs.cache
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/staticwebassets/BlueCrestRestApi.StaticWebAssets.Manifest.cache
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/staticwebassets/BlueCrestRestApi.StaticWebAssets.xml
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/scopedcss/bundle/BlueCrestRestApi.styles.css
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.RazorTargetAssemblyInfo.cache
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.csproj.CopyComplete
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.dll
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/ref/BlueCrestRestApi.dll
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.pdb
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.genruntimeconfig.cache

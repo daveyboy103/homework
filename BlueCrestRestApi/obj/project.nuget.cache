@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "77ab0QdhZtTakShjMKU0IETJhb7c38xAjHIbn3wvUBbY2LX518dFCpCi85K4dX9HN/QLBj8H0jk1j+LupWNhvQ==",
+  "dgSpecHash": "fD+y+cCN7H8enIglUIU7uwhihE/D8JgXpfl7wGja+7gLc/jhq/TTFqliAFERxlXi5SM8KXohmL1I0f/Bczb5fw==",
   "success": true,
-  "projectFilePath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/BlueCrestRestApi/BlueCrestRestApi.csproj",
+  "projectFilePath": "/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/BlueCrestRestApi.csproj",
   "expectedPackageFiles": [
     "/Users/davidharrington/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/davidharrington/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",

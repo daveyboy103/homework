@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qwkR+WUH7r2K54vo5EKLbKn8NWmqjOVtUcUoumwLjm4Pi6M3i4wE202AXhU1qsyR6sZ/eBrBEqsm5iXpGsXYhQ==",
+  "dgSpecHash": "1SITBxj/i13rFjdgJf/L69ByXh0yfc0UlfjG88O/G/njJgL2rB7d75WQwtd0Xt3gk5viqnXy7SLCMYxsGdk6RQ==",
   "success": true,
-  "projectFilePath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/BlueCrestHomework/BlueCrestHomework.csproj",
+  "projectFilePath": "/Users/davidharrington/Documents/GitHub/homework/BlueCrestHomework/BlueCrestHomework.csproj",
   "expectedPackageFiles": [
     "/Users/davidharrington/.nuget/packages/humanizer.core/2.2.0/humanizer.core.2.2.0.nupkg.sha512",
     "/Users/davidharrington/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

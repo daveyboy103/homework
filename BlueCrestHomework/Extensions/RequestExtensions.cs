@@ -19,7 +19,6 @@ namespace BlueCrestHomework.Extensions
                 var columnKeys = GetColumnKeys(request);
                 var colDataForDimension = GetColumnDataForDimension(request, dimension, columnKeys);
                 var rowMeasures = GetRowMeasures(request, dimension);
-                (ret.Headers as List<string>)?.AddRange(columnKeys.Keys.ToList());
                 bool pnlAdded = false;
                 foreach (RowMeasure measure in rowMeasures)
                 {

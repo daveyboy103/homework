@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/Scratch/Scratch.csproj": {}
+    "/Users/davidharrington/Documents/GitHub/homework/Scratch/Scratch.csproj": {}
   },
   "projects": {
-    "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/DataModel/DataModel.csproj": {
+    "/Users/davidharrington/Documents/GitHub/homework/DataModel/DataModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/DataModel/DataModel.csproj",
+        "projectUniqueName": "/Users/davidharrington/Documents/GitHub/homework/DataModel/DataModel.csproj",
         "projectName": "DataModel",
-        "projectPath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/DataModel/DataModel.csproj",
+        "projectPath": "/Users/davidharrington/Documents/GitHub/homework/DataModel/DataModel.csproj",
         "packagesPath": "/Users/davidharrington/.nuget/packages/",
-        "outputPath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/DataModel/obj/",
+        "outputPath": "/Users/davidharrington/Documents/GitHub/homework/DataModel/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/davidharrington/.nuget/NuGet/NuGet.Config"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/Scratch/Scratch.csproj": {
+    "/Users/davidharrington/Documents/GitHub/homework/Scratch/Scratch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/Scratch/Scratch.csproj",
+        "projectUniqueName": "/Users/davidharrington/Documents/GitHub/homework/Scratch/Scratch.csproj",
         "projectName": "Scratch",
-        "projectPath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/Scratch/Scratch.csproj",
+        "projectPath": "/Users/davidharrington/Documents/GitHub/homework/Scratch/Scratch.csproj",
         "packagesPath": "/Users/davidharrington/.nuget/packages/",
-        "outputPath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/Scratch/obj/",
+        "outputPath": "/Users/davidharrington/Documents/GitHub/homework/Scratch/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/davidharrington/.nuget/NuGet/NuGet.Config"
@@ -84,8 +84,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/DataModel/DataModel.csproj": {
-                "projectPath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/DataModel/DataModel.csproj"
+              "/Users/davidharrington/Documents/GitHub/homework/DataModel/DataModel.csproj": {
+                "projectPath": "/Users/davidharrington/Documents/GitHub/homework/DataModel/DataModel.csproj"
               }
             }
           }
