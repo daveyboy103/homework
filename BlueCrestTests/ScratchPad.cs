@@ -1,23 +1,22 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel.Design;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Transactions;
 using BlueCrestHomework.Extensions;
 using BlueCrestHomework.Models;
 using DataModel.Dtos;
 using Newtonsoft.Json;
 using NUnit.Framework;
-using NUnit.Framework.Constraints;
 using Request = DataModel.Dtos.Request;
 using Row = DataModel.Dtos.Row;
 
 namespace BlueCrestTests
 {
-    public class Tests
+    /// <summary>
+    /// Test mainly used as a scratch pad for testing out theories not TDD,
+    /// </summary>
+    public class ScratchPad
     {
         private Request request;
         [SetUp]
@@ -26,8 +25,6 @@ namespace BlueCrestTests
             using var stream = new StreamReader("testResult.json");
             string content = stream.ReadToEnd();
             request = JsonConvert.DeserializeObject<Request>(content);
-            
-            
         }
 
         [Test]
@@ -92,7 +89,7 @@ namespace BlueCrestTests
 
                 RequestBinding binding = request.ToBindingObject();
                 
-                
+                Assert.IsNotNull(binding);
 
             }
         }
@@ -103,6 +100,8 @@ namespace BlueCrestTests
             double d = 12345.678900;
 
             Console.WriteLine(String.Format(CultureInfo.CurrentCulture, "{0:N3}", d));
+            
+            Assert.Pass();
         }
 
         /// <summary>
@@ -134,7 +133,6 @@ namespace BlueCrestTests
                 });
             
             Assert.IsNotNull(ret);
-
         }
     }
 }
