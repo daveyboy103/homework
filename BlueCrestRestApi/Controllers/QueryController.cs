@@ -1,6 +1,8 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
+using BlueCrestHomework.Extensions;
 using DataModel.Dtos;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -18,15 +20,36 @@ namespace BlueCrestRestApi.Controllers
 
             try
             {
-                await Task.Factory.StartNew(() =>
-                {
-                    using var stream = new StreamReader("Data/testResult.json");
-                    var content = stream.ReadToEnd();
-
-                    request = JsonConvert.DeserializeObject<Request>(content);
-                });
+                await Task.Factory.StartNew(() => { request = BuildRequest(); });
 
                 return new ActionResult<Request>(request);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, e.Message);
+            }
+        }
+
+        private static Request BuildRequest()
+        {
+            Request request;
+            using var stream = new StreamReader("Data/testResult.json");
+            var content = stream.ReadToEnd();
+
+            request = JsonConvert.DeserializeObject<Request>(content);
+            return request;
+        }
+
+        [HttpGet("query/all/enumerable")]
+        public async Task<ActionResult<IEnumerable<RowMeasureItem>>> GetEnumerable()
+        {
+            var request = new Request { RequestId = "empty" };
+
+            try
+            {
+                await Task.Factory.StartNew(() => { request = BuildRequest(); });
+
+                return new ActionResult<IEnumerable<RowMeasureItem>>(request.ToEnumerableOfMeasures());
             }
             catch (Exception e)
             {

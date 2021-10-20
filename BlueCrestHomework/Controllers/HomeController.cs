@@ -47,7 +47,7 @@ namespace BlueCrestHomework.Controllers
 
                 return View(requestBinding);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return View("Error");
             }

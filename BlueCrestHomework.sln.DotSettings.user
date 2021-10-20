@@ -1,4 +1,24 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=44a0e9e4_002D4349_002D451d_002D8c4a_002D1cc986213ac9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LinqTest #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::7A107C91-8B35-4F9C-B8AB-B8D73C4FF92D::net5.0::BlueCrestTests.Tests.LinqTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=565f28e7_002Dc358_002D40b2_002D9f95_002Dbc9738e9d7c9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LinqTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::7A107C91-8B35-4F9C-B8AB-B8D73C4FF92D::net5.0::BlueCrestTests.Tests.LinqTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=683306c2_002D24f7_002D464c_002D8324_002Dc5846fae0fa6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LinqTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::7A107C91-8B35-4F9C-B8AB-B8D73C4FF92D::net5.0::BlueCrestTests.Tests.LinqTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=72aa9ede_002D5cb3_002D46ec_002D8ae9_002D388c70d53e4e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LinqTest #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::7A107C91-8B35-4F9C-B8AB-B8D73C4FF92D::net5.0::BlueCrestTests.Tests.LinqTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=97abe7c2_002D4efe_002D4341_002Daa72_002Db290f6668ab1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::7A107C91-8B35-4F9C-B8AB-B8D73C4FF92D::net5.0::BlueCrestTests.Tests&lt;/TestId&gt;
@@ -9,12 +29,13 @@
     &lt;TestId&gt;NUnit3x::7A107C91-8B35-4F9C-B8AB-B8D73C4FF92D::net5.0::BlueCrestTests.Tests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=caf9a524_002D4b70_002D4620_002Dadeb_002Db02eecfed121/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=caf9a524_002D4b70_002D4620_002Dadeb_002Db02eecfed121/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::7A107C91-8B35-4F9C-B8AB-B8D73C4FF92D::net5.0::BlueCrestTests.Tests.Test1&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::7A107C91-8B35-4F9C-B8AB-B8D73C4FF92D::net5.0::BlueCrestTests.Tests.LinqTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::7A107C91-8B35-4F9C-B8AB-B8D73C4FF92D::net5.0::BlueCrestTests.Tests.NumberFormattingTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d83aafef_002D3aca_002D4e3e_002D955c_002Dbfaf5b192e2c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d83aafef_002D3aca_002D4e3e_002D955c_002Dbfaf5b192e2c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::7A107C91-8B35-4F9C-B8AB-B8D73C4FF92D::net5.0::BlueCrestTests.Tests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;

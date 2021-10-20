@@ -12,6 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\BlueCrestHomework\BlueCrestHomework.csproj" />
       <ProjectReference Include="..\DataModel\DataModel.csproj" />
     </ItemGroup>
 

@@ -188,20 +188,20 @@
 /Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/BlueCrestTests/bin/Debug/net5.0/BlueCrestHomework.dll
 /Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/BlueCrestHomework/BlueCrestTests/bin/Debug/net5.0/BlueCrestHomework.pdb
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/CoverletSourceRootsMapping
-/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/appsettings.Development.json
-/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/appsettings.json
-/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/Data/BlueCrest/testResult.json
-/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/NUnit3.TestAdapter.dll
-/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/NUnit3.TestAdapter.pdb
-/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/nunit.engine.dll
-/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/nunit.engine.api.dll
-/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/nunit.engine.core.dll
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/BlueCrestHomework.Views.dll
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/BlueCrestHomework.Views.pdb
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/BlueCrestHomework.deps.json
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/BlueCrestHomework.runtimeconfig.json
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/BlueCrestHomework.runtimeconfig.dev.json
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/appsettings.Development.json
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/appsettings.json
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/Data/BlueCrest/testResult.json
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/Microsoft.TestPlatform.PlatformAbstractions.dll
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/NUnit3.TestAdapter.dll
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/NUnit3.TestAdapter.pdb
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/nunit.engine.dll
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/nunit.engine.api.dll
+/Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/nunit.engine.core.dll
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/testResult.json
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/BlueCrestTests.deps.json
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestTests/bin/Debug/net5.0/BlueCrestTests.runtimeconfig.json

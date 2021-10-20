@@ -1,14 +1,40 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using BlueCrestHomework.Models;
 using DataModel.Dtos;
+using Microsoft.CodeAnalysis.Operations;
+
 // ReSharper disable StringLiteralTypo
 
 namespace BlueCrestHomework.Extensions
 {
     public static class RequestExtensions
     {
+        public static IEnumerable<RowMeasureItem> ToEnumerableOfMeasures(this Request request)
+        {
+            return request.Dimensions.Rows.Join(request.Measures.Rows, 
+                row => row.DimensionId,
+                rowMeasure => rowMeasure.DimensionId,
+                (row, rowMeasure) => new RowMeasureItem
+                {
+                    DimensionId = rowMeasure.DimensionId,
+                    Key = rowMeasure.Keys.First(),
+                    Value = rowMeasure.Measures.First(),
+                    Fund = request.Dimensions.Rows.Where
+                            ((row1, i) => row1.DimensionId == rowMeasure.DimensionId).First()
+                        .Dimensions[request.Dimensions.KeyIndices[Constants.Fund]],
+                    Strategy = request.Dimensions.Rows.Where
+                            ((row1, i) => row1.DimensionId == rowMeasure.DimensionId).First()
+                        .Dimensions[request.Dimensions.KeyIndices[Constants.Strategy]],
+                    Desk = request.Dimensions.Rows.Where
+                            ((row1, i) => row1.DimensionId == rowMeasure.DimensionId).First()
+                        .Dimensions[request.Dimensions.KeyIndices[Constants.Desk]]
+                });
+        }
+        
+
         public static RequestBinding ToBindingObject(this Request request)
         {
             var ret = new RequestBinding{ RequestId = request.RequestId };

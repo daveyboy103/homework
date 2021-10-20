@@ -1,5 +1,7 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -9,6 +11,7 @@ using BlueCrestHomework.Models;
 using DataModel.Dtos;
 using Newtonsoft.Json;
 using NUnit.Framework;
+using NUnit.Framework.Constraints;
 using Request = DataModel.Dtos.Request;
 using Row = DataModel.Dtos.Row;
 
@@ -23,6 +26,8 @@ namespace BlueCrestTests
             using var stream = new StreamReader("testResult.json");
             string content = stream.ReadToEnd();
             request = JsonConvert.DeserializeObject<Request>(content);
+            
+            
         }
 
         [Test]
@@ -98,6 +103,38 @@ namespace BlueCrestTests
             double d = 12345.678900;
 
             Console.WriteLine(String.Format(CultureInfo.CurrentCulture, "{0:N3}", d));
+        }
+
+        /// <summary>
+        /// Just to demonstrate that I could wrestle with LINQ to get the data out in one statement.
+        ///
+        /// The key was adding the KeyIndices calculated property to the Dimensions class so that the index
+        /// of the date for that column could be retrieved by string key when building the result set
+        /// </summary>
+        [Test]
+        public void LinqTest()
+        {
+            var ret = request.Dimensions.Rows.Join(request.Measures.Rows, 
+                row => row.DimensionId,
+                rowMeasure => rowMeasure.DimensionId,
+                (row, rowMeasure) => new RowMeasureItem
+                {
+                    DimensionId = rowMeasure.DimensionId,
+                    Key = rowMeasure.Keys.First(),
+                    Value = rowMeasure.Measures.First(),
+                    Fund = request.Dimensions.Rows.Where
+                        ((row1, i) => row1.DimensionId == rowMeasure.DimensionId).First()
+                        .Dimensions[request.Dimensions.KeyIndices["fundreference"]],
+                    Strategy = request.Dimensions.Rows.Where
+                            ((row1, i) => row1.DimensionId == rowMeasure.DimensionId).First()
+                        .Dimensions[request.Dimensions.KeyIndices["strat"]],
+                    Desk = request.Dimensions.Rows.Where
+                            ((row1, i) => row1.DimensionId == rowMeasure.DimensionId).First()
+                        .Dimensions[request.Dimensions.KeyIndices["desk"]]
+                });
+            
+            Assert.IsNotNull(ret);
+
         }
     }
 }

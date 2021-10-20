@@ -8,4 +8,12 @@
       <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Dimension.cs" />
+      <Compile Remove="Measure.cs" />
+      <Compile Remove="MeasureRow.cs" />
+      <Compile Remove="Request.cs" />
+      <Compile Remove="Row.cs" />
+    </ItemGroup>
+
 </Project>
