@@ -57,7 +57,6 @@
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/staticwebassets/BlueCrestRestApi.StaticWebAssets.xml
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/scopedcss/bundle/BlueCrestRestApi.styles.css
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.RazorTargetAssemblyInfo.cache
-/Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.csproj.CopyComplete
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.dll
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/ref/BlueCrestRestApi.dll
 /Users/davidharrington/Documents/GitHub/homework/BlueCrestRestApi/obj/Debug/net5.0/BlueCrestRestApi.pdb
