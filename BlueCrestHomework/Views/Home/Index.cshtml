@@ -5,7 +5,11 @@
 @model RequestBinding 
 
 <div class="text-center">
-    <h1 class="display-4">@Model.RequestId</h1>
+    <div class="row col">
+        <strong class="col-sm-4 align-text-middle"><img width="100" height="50" src="Images/bluecrest_logo.png"/></strong>
+        <strong class="col-sm-4 align-text-middle">Report: Pnl By Stategy</strong>
+        <span class="col-sm-4 align-text-middle">Generated: @DateTime.Now</span>
+    </div>
     @if (Model.TotalPnl < 0)
     {
         <h4 class ="alert-danger">Total Pnl: ($@Math.Round(Math.Abs(Model.TotalPnl), 4))</h4>
