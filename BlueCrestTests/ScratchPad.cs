@@ -87,9 +87,7 @@ namespace BlueCrestTests
 
                 Console.WriteLine($"Total Pnl: {totalPnl}");
 
-                RequestBinding binding = request.ToBindingObject();
-                
-                Assert.IsNotNull(binding);
+                Assert.IsNotNull(request);
 
             }
         }
