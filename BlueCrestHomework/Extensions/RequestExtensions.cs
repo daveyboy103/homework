@@ -1,10 +1,7 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection.Metadata;
 using BlueCrestHomework.Models;
 using DataModel.Dtos;
-using Microsoft.CodeAnalysis.Operations;
 
 // ReSharper disable StringLiteralTypo
 
@@ -12,6 +9,55 @@ namespace BlueCrestHomework.Extensions
 {
     public static class RequestExtensions
     {
+        public static RequestBinding ToBindingObject(this IEnumerable<RowMeasureItem> list, string requestId)
+        {
+            void AddPnlSubComponent(RowMeasureItem rowMeasureItem, Dictionary<string, double> dictionary)
+            {
+                if (rowMeasureItem.Key.StartsWith(Constants.PnlMatcher))
+                {
+                    if (ContainsTwoDots(rowMeasureItem.Key))
+                        dictionary.Add(rowMeasureItem.Key, rowMeasureItem.Value);
+                }
+            }
+
+            var rowMeasureItems = list as RowMeasureItem[] ?? list.ToArray();
+            List<string> allDimensions = new(rowMeasureItems.Select(x => x.DimensionId).Distinct());
+            List<BindingDataRow> dataRows = new();
+            double totalPnl = 0;
+            string currentDimension = null;
+            var pnlSubComponents = new Dictionary<string, double>();
+
+            foreach (RowMeasureItem rowMeasureItem in rowMeasureItems)
+            {
+                currentDimension ??= rowMeasureItem.DimensionId;
+                
+                if(currentDimension != rowMeasureItem.DimensionId)
+                    pnlSubComponents = new Dictionary<string, double>();
+                
+                if (rowMeasureItem.Key == Constants.Pnl)
+                {
+                    totalPnl += rowMeasureItem.Value;
+                    var bindingDataRow = new BindingDataRow
+                    {
+                        DimensionId = rowMeasureItem.DimensionId,
+                        Fund = rowMeasureItem.Fund,
+                        Strategy = rowMeasureItem.Strategy,
+                        Desk = rowMeasureItem.Desk,
+                        Pnl = rowMeasureItem.Value,
+                        PnlReported = true,
+                        PnlSubComponents = pnlSubComponents
+                    };
+                    
+                    dataRows.Add(bindingDataRow);
+                }
+                
+                AddPnlSubComponent(rowMeasureItem, pnlSubComponents);
+                
+                currentDimension = rowMeasureItem.DimensionId;
+            }
+
+            return new RequestBinding(dataRows, totalPnl){ RequestId = requestId};
+        }
         public static IEnumerable<RowMeasureItem> ToEnumerableOfMeasures(this Request request)
         {
             return request.Dimensions.Rows.Join(request.Measures.Rows, 
@@ -47,7 +93,6 @@ namespace BlueCrestHomework.Extensions
                 var columnKeys = GetColumnKeys(request);
                 var colDataForDimension = GetColumnDataForDimension(request, dimension, columnKeys);
                 var rowMeasures = GetRowMeasuresForDimension(request, dimension);
-                bool pnlAdded = false;
                 var pnlSubComponents = new Dictionary<string, double>();
                 foreach (RowMeasure measure in rowMeasures)
                 {
@@ -59,7 +104,6 @@ namespace BlueCrestHomework.Extensions
                         {
                             Pnl = pnl
                         });
-                        pnlAdded = true;
                     }
                     
                     if (measure.Keys.First().StartsWith(Constants.PnlMatcher))
@@ -67,14 +111,6 @@ namespace BlueCrestHomework.Extensions
                         if(ContainsTwoDots(measure.Keys.First()))
                             pnlSubComponents.Add(measure.Keys.First(), measure.Measures.First());
                     }
-                }
-
-                if (!pnlAdded)
-                {
-                    (ret.Rows as List<BindingDataRow>)?.Add(new BindingDataRow(colDataForDimension, false)
-                    {
-                        Pnl = 0,
-                    });
                 }
             }
 

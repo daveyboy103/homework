@@ -42,7 +42,7 @@ namespace BlueCrestHomework.Controllers
                     request = JsonSerializer.Deserialize<Request>(decoded, _options);
                 }
 
-                var requestBinding = request.ToBindingObject();
+                var requestBinding = request.ToEnumerableOfMeasures().ToBindingObject(request?.RequestId);
                 requestBinding.ShowDetails = requestBindingPosted.ShowDetails;
 
                 return View(requestBinding);

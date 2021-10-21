@@ -3,6 +3,7 @@
 }
 
 @using System.Globalization
+@using DataModel.Dtos
 @model RequestBinding 
 
 <div class="text-center">
@@ -100,5 +101,8 @@
             }
         </table>
     </div>
-
+    <br/>
+    <div class="row">
+        <span class="text-info align-text-right">Request Id: <a href="mailto:noone@BlueCrestHomework.com?subject=Request: @Model.RequestId">[@Model.RequestId]</a>  - Please click this link if you need to contact support with any issues.</span>
+    </div>
 </div>

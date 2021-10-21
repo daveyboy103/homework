@@ -95,6 +95,14 @@ namespace BlueCrestTests
         }
 
         [Test]
+        public void EnumerableRowMeasureItemToBindingObject()
+        {
+            var ret = request.ToEnumerableOfMeasures().ToBindingObject(request.RequestId);
+            
+            Assert.IsNotNull(ret);
+        }
+
+        [Test]
         public void NumberFormattingTests()
         {
             double d = 12345.678900;
