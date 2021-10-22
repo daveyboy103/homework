@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using BlueCrestHomework.Extensions;
 
 namespace BlueCrestHomework.Models
 {

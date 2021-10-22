@@ -4,20 +4,17 @@ using BlueCrestHomework.Models;
 using DataModel.Dtos;
 
 // ReSharper disable StringLiteralTypo
-
 namespace BlueCrestHomework.Extensions
 {
     public static class RequestExtensions
     {
         public static RequestBinding ToBindingObject(this IEnumerable<RowMeasureItem> list, string requestId)
         {
-            void AddPnlSubComponent(RowMeasureItem rowMeasureItem, Dictionary<string, double> dictionary)
+            void AddPnlSubComponent(RowMeasureItem rowMeasureItem, IDictionary<string, double> dictionary)
             {
-                if (rowMeasureItem.Key.StartsWith(Constants.PnlMatcher))
-                {
-                    if (ContainsTwoDots(rowMeasureItem.Key))
-                        dictionary.Add(rowMeasureItem.Key, rowMeasureItem.Value);
-                }
+                if (!rowMeasureItem.Key.StartsWith(Constants.PnlMatcher)) return;
+                if (ContainsTwoDots(rowMeasureItem.Key))
+                    dictionary.Add(rowMeasureItem.Key, rowMeasureItem.Value);
             }
 
             var rowMeasureItems = list as RowMeasureItem[] ?? list.ToArray();
@@ -26,7 +23,7 @@ namespace BlueCrestHomework.Extensions
             string currentDimension = null;
             var pnlSubComponents = new Dictionary<string, double>();
 
-            foreach (RowMeasureItem rowMeasureItem in rowMeasureItems)
+            foreach (var rowMeasureItem in rowMeasureItems)
             {
                 currentDimension ??= rowMeasureItem.DimensionId;
                 
@@ -43,7 +40,6 @@ namespace BlueCrestHomework.Extensions
                         Strategy = rowMeasureItem.Strategy,
                         Desk = rowMeasureItem.Desk,
                         Pnl = rowMeasureItem.Value,
-                        PnlReported = true,
                         PnlSubComponents = pnlSubComponents
                     };
                     
@@ -55,7 +51,7 @@ namespace BlueCrestHomework.Extensions
                 currentDimension = rowMeasureItem.DimensionId;
             }
 
-            return new RequestBinding(dataRows, totalPnl){ RequestId = requestId};
+            return new RequestBinding(dataRows, totalPnl){ RequestId = requestId };
         }
         public static IEnumerable<RowMeasureItem> ToEnumerableOfMeasures(this Request request)
         {
@@ -81,13 +77,7 @@ namespace BlueCrestHomework.Extensions
 
         private static bool ContainsTwoDots(string stringToTest)
         {
-            int dotCount = 0;
-            foreach (char c in stringToTest)
-            {
-                if (c == '.')
-                    dotCount++;
-            }
-
+            var dotCount = stringToTest.Count(c => c == '.');
             return dotCount <= 2;
         }
     }

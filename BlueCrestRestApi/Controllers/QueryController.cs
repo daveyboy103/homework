@@ -40,6 +40,11 @@ namespace BlueCrestRestApi.Controllers
             return request;
         }
 
+        /// <summary>
+        /// This method would get the request pre-processed into an enumerable of RowMeasureItems as an alternative
+        /// to getting the deserialized request object and then converting to enumerable at the other end.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("query/all/enumerable")]
         public async Task<ActionResult<IEnumerable<RowMeasureItem>>> GetEnumerable()
         {
