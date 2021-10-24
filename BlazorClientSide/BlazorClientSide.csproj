@@ -15,4 +15,10 @@
       <ProjectReference Include="..\DataModel\DataModel.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Remove="Shared\SurveyPrompt.razor" />
+      <Content Remove="Pages\Counter.razor" />
+      <Content Remove="Pages\Index.razor" />
+    </ItemGroup>
+
 </Project>
