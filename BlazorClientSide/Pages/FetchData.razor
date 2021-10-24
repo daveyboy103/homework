@@ -1,0 +1,129 @@
+﻿@page "/fetchdata"
+@using DataModel.Dtos
+@using System.Globalization
+@using System.Collections.ObjectModel
+@inject HttpClient Http
+
+@if (pnlData == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <div class="container">
+        <h1 class-="col-sm-12">PNL By Strategy</h1>
+        @if (TotalPnl() < 0)
+        {
+            <h4 class="alert-danger">Total Pnl (@string.Format(new CultureInfo("en-US"), "{0:C2}", Math.Abs(TotalPnl())))</h4>
+        }
+        else
+        {
+            <h4 class="alert-danger">Total Pnl @string.Format(new CultureInfo("en-US"), "{0:C2}", TotalPnl())</h4>
+        }
+        <button class="btn btn-primary" @onclick="ReloadPage" value="Show Details">@_buttonCaption</button>
+        <table class="table-striped table-bordered col-sm-12">
+            <thead>
+            <tr>
+                <th>Fund</th>
+                <th>Desk</th>
+                <th>Strategy</th>
+                <th>Key</th>
+                <th>Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var rowMeasure in pnlData)
+            {
+                @if (rowMeasure.Key == "pnl" && _showDetails && _counter != 0)
+                {
+                    <tr><td colspan="5"><hr></td></tr>
+                }
+                <tr>
+                    @if (!rowMeasure.Key.StartsWith("pnl."))
+                    {
+                        <td>
+                            <b>@rowMeasure.Fund</b>
+                        </td>
+                        <td>@rowMeasure.Desk</td>
+                        <td>@rowMeasure.Strategy</td>
+                        @if (rowMeasure.Key != "pnl")
+                        {
+                            <td>@rowMeasure.Key</td>
+                        }
+                        else
+                        {
+                            <td><b>@rowMeasure.Key</b></td>
+                        }
+                    }
+                    else
+                    {
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    }
+
+                    @if (rowMeasure.Value < 0)
+                    {
+                        <td class="alert-danger align-text-top text-right">(@string.Format(new CultureInfo("en-US"), "{0:C2}", Math.Abs(rowMeasure.Value)))</td>
+                    }
+                    else
+                    {
+                        <td class="alert-success align-text-top text-right">@string.Format(new CultureInfo("en-US"), "{0:C2}", rowMeasure.Value)</td>
+                    }
+                </tr>
+                _counter++;
+            }
+            </tbody>
+        </table>
+    </div>
+}
+
+@code {
+    private ObservableCollection<RowMeasureItem> pnlData;
+    private IEnumerable<RowMeasureItem> _data;
+    private string _buttonCaption = "Show Details";
+    private int _counter = 0;
+
+    private bool _showDetails = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+         _data = await Http.GetFromJsonAsync<RowMeasureItem[]>("https://localhost:5001/api/Query/query/all/enumerable");
+        if (_data != null) pnlData = new ObservableCollection<RowMeasureItem>(_data.Select(x => x).Where(x => x.Key == "pnl"));
+    }
+    
+
+    private double TotalPnl()
+    {
+        return pnlData.Where(x => x.Key == "pnl").Sum(x => x.Value);
+    }
+
+   
+    private void ReloadPage()
+    {
+        if (!_showDetails)
+        {
+            pnlData = new ObservableCollection<RowMeasureItem>(_data.Select(x => x).Where(x => ContainsTwoDots(x.Key)));
+            _showDetails = true;
+            _buttonCaption = "Hide Details";
+        }
+        else
+        {
+            pnlData = new ObservableCollection<RowMeasureItem>(_data.Select(x => x).Where(x => x.Key == "pnl"));
+            _showDetails = false;
+            _buttonCaption = "Show Details";
+        }
+    }
+    
+    private static bool ContainsTwoDots(string stringToTest)
+    {
+        if (stringToTest == "pnl") return true;
+        if (!stringToTest.StartsWith("pnl.")) return false;
+        var dotCount = stringToTest.Count(c => c == '.');
+        return dotCount <= 2;
+    }
+}
+}
