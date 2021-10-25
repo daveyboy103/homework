@@ -412,6 +412,7 @@
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs
+/Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/RazorDeclaration/Shared/NavMenu.razor.g.cs
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/BlazorClientSide.RazorComponent.output.cache
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/RazorDeclaration/BlazorClientSide.dll
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/BlazorClientSide.TagHelpers.input.cache
@@ -421,6 +422,7 @@
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/Razor/Pages/FetchData.razor.g.cs
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs
+/Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/build-gz/0lSchzLv.gz
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/build-gz/oEc9Zd1u.gz
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/build-gz/z4gsn9sU.gz
@@ -621,12 +623,10 @@
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/staticwebassets/BlazorClientSide.StaticWebAssets.Manifest.cache
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/staticwebassets/BlazorClientSide.StaticWebAssets.xml
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
+/Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/scopedcss/bundle/BlazorClientSide.styles.css
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/scopedcss/projectbundle/BlazorClientSide.bundle.scp.css
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/BlazorClientSide.RazorTargetAssemblyInfo.cache
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/BlazorClientSide.dll
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/ref/BlazorClientSide.dll
 /Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/BlazorClientSide.pdb
-/Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/RazorDeclaration/Shared/NavMenu.razor.g.cs
-/Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs
-/Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/obj/Debug/net5.0/scopedcss/Shared/NavMenu.razor.rz.scp.css

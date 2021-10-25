@@ -112,7 +112,7 @@ using System.Collections.ObjectModel;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 84 "/Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/Pages/FetchData.razor"
+#line 83 "/Users/davidharrington/Documents/GitHub/homework/BlazorClientSide/Pages/FetchData.razor"
        
     private ObservableCollection<RowMeasureItem> pnlData;
     private IEnumerable<RowMeasureItem> _data;

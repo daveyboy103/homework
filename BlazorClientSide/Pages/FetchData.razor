@@ -22,15 +22,15 @@ else
         {
             <h4 class="alert-danger">Total Pnl @string.Format(new CultureInfo("en-US"), "{0:C2}", TotalPnl())</h4>
         }
-        <button class="btn btn-primary" @onclick="ReloadPage" value="Show Details">@_buttonCaption</button>
+        <button class="btn btn-outline-success" @onclick="ReloadPage" value="Show Details">@_buttonCaption</button>
         <table class="table-striped table-bordered col-sm-12">
             <thead>
             <tr>
-                <th>Fund</th>
-                <th>Desk</th>
-                <th>Strategy</th>
-                <th>Key</th>
-                <th>Value</th>
+                <th class="align-top">Fund</th>
+                <th class="align-top">Desk</th>
+                <th class="align-top">Strategy</th>
+                <th class="align-top">Key</th>
+                <th class="align-top">Value</th>
             </tr>
             </thead>
             <tbody>
@@ -43,26 +43,25 @@ else
                 <tr>
                     @if (!rowMeasure.Key.StartsWith("pnl."))
                     {
-                        <td>
+                        <td class="align-top">
                             <b>@rowMeasure.Fund</b>
                         </td>
-                        <td>@rowMeasure.Desk</td>
-                        <td>@rowMeasure.Strategy</td>
-                        @if (rowMeasure.Key != "pnl")
-                        {
-                            <td>@rowMeasure.Key</td>
-                        }
-                        else
-                        {
-                            <td><b>@rowMeasure.Key</b></td>
-                        }
+                        <td class="align-top">@rowMeasure.Desk</td>
+                        <td class="align-top">@rowMeasure.Strategy</td>
                     }
                     else
                     {
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                    }
+                    @if (rowMeasure.Key != "pnl")
+                    {
+                        <td class="align-top">@rowMeasure.Key</td>
+                    }
+                    else
+                    {
+                        <td class="align-top"><b>@rowMeasure.Key</b></td>
                     }
 
                     @if (rowMeasure.Value < 0)

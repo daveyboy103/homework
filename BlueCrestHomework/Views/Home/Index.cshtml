@@ -1,7 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
 @using System.Globalization
 @model RequestBinding 
 
@@ -20,7 +19,7 @@
             {
                 <strong class="col-sm-3 align-text-middle">Report: Pnl By Stategy Breakdown </strong>
             }
-            
+
             <input onChange="this.form.submit()" type="checkbox" asp-for="ShowDetails" classs="col-sm-2" id="check_details"/>
             <label classs="col-sm-3" for="check_details"> Show Breakdown</label>
             <span class="col-sm-3 align-text-middle">Generated: @DateTime.Now</span>
@@ -28,11 +27,11 @@
     </div>
     @if (Model.TotalPnl < 0)
     {
-        <h4 class="alert-danger">Total Pnl: ($@String.Format(CultureInfo.CurrentCulture, "{0:N2}", Math.Abs(Model.TotalPnl)))</h4>
+        <h4 class="alert-danger">Total Pnl: ($@string.Format(CultureInfo.CurrentCulture, "{0:N2}", Math.Abs(Model.TotalPnl)))</h4>
     }
     else
     {
-        <h4 class="alert-success">Total Pnl: $@String.Format(CultureInfo.CurrentCulture, "{0:N2}",  Model.TotalPnl))</h4>
+        <h4 class="alert-success">Total Pnl: $@string.Format(CultureInfo.CurrentCulture, "{0:N2}", Model.TotalPnl))</h4>
     }
     <div class="row align-content-center">
         <table class="table-striped m-auto col-sm-12">
@@ -61,14 +60,14 @@
                             <td class="text-left font-weight-bold">@row.Fund</td>
                             <td class="text-left">@row.Strategy</td>
                             <td class="text-left">@row.Desk</td>
-                            
+
                             @if (row.Pnl >= 0)
                             {
-                                <td class="text-right">@String.Format(CultureInfo.CurrentCulture, "{0:N2}", Math.Abs(row.Pnl))</td>
+                                <td class="text-right">@string.Format(CultureInfo.CurrentCulture, "{0:N2}", Math.Abs(row.Pnl))</td>
                             }
                             else
                             {
-                                <td class="text-right alert-danger">(@String.Format(CultureInfo.CurrentCulture, "{0:N2}", Math.Abs(row.Pnl)))</td>
+                                <td class="text-right alert-danger">(@string.Format(CultureInfo.CurrentCulture, "{0:N2}", Math.Abs(row.Pnl)))</td>
                             }
                             @if (Model.ShowDetails)
                             {
@@ -79,17 +78,17 @@
                                             <span class="col-6 text-sm-right">@details.Key</span>
                                             @if (details.Value >= 0)
                                             {
-                                                <span class="col-6 text-sm-right">@String.Format(CultureInfo.CurrentCulture, "{0:N2}", Math.Abs(details.Value))</span>
+                                                <span class="col-6 text-sm-right">@string.Format(CultureInfo.CurrentCulture, "{0:N2}", Math.Abs(details.Value))</span>
                                             }
                                             else
                                             {
-                                                <span class="col-6 text-sm-right alert-danger">(@String.Format(CultureInfo.CurrentCulture, "{0:N2}", Math.Abs(details.Value)))</span>
+                                                <span class="col-6 text-sm-right alert-danger">(@string.Format(CultureInfo.CurrentCulture, "{0:N2}", Math.Abs(details.Value)))</span>
                                             }
                                         }
                                     </div>
                                 </td>
                             }
-                            
+
                         </tr>
                     }
                     i++;
@@ -99,6 +98,6 @@
     </div>
     <br/>
     <div class="row">
-        <span class="text-info align-text-right">Request Id: <a alt = "Click this link to compose a support email about this report" href="mailto:noone@BlueCrestHomework.com?subject=Request: @Model.RequestId">[@Model.RequestId]</a>  - Please click this link if you need to contact support with any issues.</span>
+        <span class="text-info align-text-right">Request Id: <a alt="Click this link to compose a support email about this report" href="mailto:noone@BlueCrestHomework.com?subject=Request: @Model.RequestId">[@Model.RequestId]</a> - Please click this link if you need to contact support with any issues.</span>
     </div>
 </div>
